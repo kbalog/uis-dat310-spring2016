@@ -28,16 +28,25 @@ Create the following HTML page. You can use a text editor or the [w3schools try-
 ![Exercise2](images/exercise2.png)
 
 
-## Exercise #3: Lists
+## Exercise #3: Text formatting
+
+Create the HTML page below.
+
+  - Hint: use `<hr>`, `<br>`, `<strong>`, `<s>`, `&nbsp;`, `&euro;`.
+
+![Exercise3](images/exercise3.png)
+
+
+## Exercise #4: Lists
 
 Create an ordered list nested inside an unordered list.
 
-  - Use the tags `<ol>`, `<ul>`, `<li>`.
+  - Tags to use: `<ol>`, `<ul>`, `<li>`.
 
-![Exercise3](images/exercise3.png)
+![Exercise4](images/exercise4.png)
   
 
-## Exercise #3b: Advanced lists
+## Exercise #4b: Advanced lists
 
 Building on the previous exercise, make the following changes:
 
@@ -47,17 +56,37 @@ Building on the previous exercise, make the following changes:
   - See [this page](http://www.w3schools.com/html/html_lists.asp) for how to change list markers.
   - See [this page](http://www.w3schools.com/tags/tag_ol.asp) for reference on ordered lists.
 
-![Exercise3b](images/exercise3b.png)
+![Exercise4b](images/exercise4b.png)
 
 
-## Exercise 4
+## Exercise 5: Tables
 
-## Exercise 5
+Create the tables below.
 
-## Exercise #6: Table of contents
+  - Add border for better visibility: `<table border="1">`.
+  - Tags to use: `<table>`, `<thead>`, `<tbody>`, `<tr>`, `<th>`, `<td>`.
 
-Create a table of contents for the Exercises #1-#5.
+![Exercise5](images/exercise5.png)
 
-  - 
 
+## Exercise #6: Links
+
+Create the HTML page below.
+
+  - The first link points to _http://uis.no_.
+  - The second link points to _https://google.com_ and opens it in a new window.
+  - The third link opens an e-mail to _contact@address.com_.
+
+![Exercise6](images/exercise6.png)
+
+
+## Exercise #7: Table of contents
+
+Create a table of contents for Exercises #1-#6.
+
+  - The header (`<h1>`) says _Exercises #1-#6_.
+  - The table has a header and three columns.
+  - The links should open in a new window.
+
+![Exercise7](images/exercise7.png)
 
