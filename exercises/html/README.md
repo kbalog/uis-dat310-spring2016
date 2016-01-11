@@ -73,7 +73,7 @@ Create the tables below.
 
 Create the HTML page below.
 
-  - The first link points to _http://uis.no_.
+  - The first link points to _http://www.uis.no_.
   - The second link points to _https://google.com_ and opens it in a new window.
   - The third link opens an e-mail to _contact@address.com_.
 
