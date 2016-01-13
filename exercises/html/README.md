@@ -90,3 +90,63 @@ Create a table of contents for Exercises #1-#6.
 
 ![Exercise7](images/exercise7.png)
 
+
+## Exercise #8: Links within a page
+
+Make a HTML page with a several paragraphs of text, such that the content doesn't fit on the screen and requires scrolling.
+(In situations, when only some placeholder text is needed, web developers commonly use Lorem Ipsum as a dummy filler text. There are many websites for generating blocks of lorem ipsum text, e.g., [lipsum.com](http://www.lipsum.com/).)
+
+  - Add a link at the top that jumps to the bottom of the page.
+  - Add a link at the bottom that jumps to the top of the page.
+
+
+![Exercise8/1](images/exercise8_1.png)
+![Exercise8/2](images/exercise8_2.png)
+
+
+## Exercise #9: Images
+
+For this exercise and the next, you'll need to save the files on your local computer (i.e., won't work with the w3school try-it editor).
+
+  - Make an _images_ folder and save [images/octocat.png](images/octocat.png) in that folder.
+  - Create a HTML page and include this image in three different sizes:
+    * The original size.
+    * 25% of the original size.
+    * Setting the height of the image to 50px.
+  - Make each each image a link (surround `<img>` with `<a>..</a>`)
+    * The first image should point to _github.com_.
+    * The second and third images should point to the original image and open in a new window.
+
+![Exercise9](images/exercise9.png)
+
+
+## Exercise #10: Images from the Web
+
+Make a table with the top-3 places you would like to visit.
+
+  - Create thumbnails of the original images on your local computer.
+    * Save the original images to your computer then resize them. Resizing can be done, e.g., with Microsoft Paint ([see how](http://www.wikihow.com/Resize-an-Image-in-Microsoft-Paint)).
+    * Make all thumbnails of the same size.
+  - Links the thumbnails to the original images.
+  - Link the name of the place to a page about that place (e.g., Wikipedia).
+
+![Exercise10](images/exercise10.png)
+
+
+## Exercise #11: Your final test
+
+Create the following HTML page:
+
+![Exercise11](images/exercise11.png)
+
+  - The page title is "What's up".
+  - The text "How do you feel?" is heading 1.
+  - The rest of the content is arranged in a 2-by-2 table.
+  - The top row contains one image per cell.
+    * Display the images in 128x128px size.
+    * The image files, _sadface.png_ and _happyface.png_, are located under the _images_ folder.
+    * Put links on the images that point to _http://sadsite.com_ and _http://happysite.com_.
+    * The links should open in a new browser window.
+  - The cells in the bottom row are merged together and contain a paragraph with the text "If you wanted an intelligent answer, you should have given me an intelligent question."
+  - You don't need to use any CSS in this exercise! (The table borders in the figure are just for illustration.)
+  
