@@ -45,3 +45,15 @@
     * Hint: use the `<span>` tag for coloring text.
 
 ![Exercise3](images/exercise3.png)
+
+
+## Exercise #4: Backgrounds and colors
+
+  - Create a page with three paragraphs of text (you can take Exercise #1)
+  - Set the background of all paragraps to using **page-level CSS**.
+  - Set the background of the first paragraph to white and add a "confidential" stamp as background using **inline CSS**.
+    * The image is _images/confidential.jpg_
+    * Use [background-repeat](http://www.w3schools.com/cssref/pr_background-repeat.asp) to have the stamp displayed only once.
+    
+![Exercise3](images/exercise4.png)
+    
