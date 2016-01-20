@@ -52,7 +52,7 @@ Extend the previous exercise with the following:
 
 ## Exercise #3: Styling boxes
 
-  - Check the starter file: it displays 10 squares next to each other.
+  - Check the [starter file](exercise3.html): it displays 10 squares next to each other.
   - Make the classes and apply them on the squares such that:
     * Even squares are blue (#0033cc), odd squares are red (#ff3333).
     * Numbers 1..3 have size 0.7em and numbers 8..10 have size 1.3em (numbers 4..7 have the default size 1em, there is no need to create an extra class for that).
@@ -63,7 +63,13 @@ Extend the previous exercise with the following:
 
 ## Exercise #4: Selectors
 
-Complete the external css file `exercise4.css` without making any changes to `exercise4.html`.
+Complete the external css file `exercise4.css`. 
 
-  
-  
+  - You are not allowed to make any changes to the HTML file (i.e., cannot add classes or IDs)!
+  - The second and third level lists are blue.
+  - Items in the third level list are not marked.
+  - The first element of each list is bold-faced.
+  - The links inside the list should be red; the links outside the lists should be green.
+  - The link in the second div should be purple with a yellow background.
+
+![Exercise4](images/exercise4.png)
