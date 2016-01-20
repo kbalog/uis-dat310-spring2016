@@ -77,3 +77,22 @@ Complete the external css file `exercise4.css`.
 
 ## Exercise #5: Specificity calculation
 
+Compute the specificity scores
+
+  1. `* { }`
+  1. `li { }`
+  1. `li:first-line { }`
+  1. `ul li { }`
+  1. `ul ol+li { }`
+  1. `h1 + *[rel=up] { }`
+  1. `ul ol li.red { }`
+  1. `li.red.level { }`
+  1. `style=""`
+  1. `p { }`
+  1. `div p { }`
+  1. `.sith`
+  1. `div p.sith { }`
+  1. `#sith`
+  1. `body #darkside .sith p { }`
+  
+  
