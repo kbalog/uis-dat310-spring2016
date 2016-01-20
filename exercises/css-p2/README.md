@@ -56,7 +56,7 @@ Extend the previous exercise with the following:
   - Make the classes and apply them on the squares such that:
     * Even squares are blue (#0033cc), odd squares are red (#ff3333).
     * Numbers 1..3 have size 0.7em and numbers 8..10 have size 1.3em (numbers 4..7 have the default size 1em, there is no need to create an extra class for that).
-  - Assign the id `lucky7` to square number 7 and change the text color to white and the border to double.
+  - Assign the id `lucky7` to square number 7 and change the text color to white.
 
 ![Exercise3](images/exercise3.png)
 
@@ -73,3 +73,7 @@ Complete the external css file `exercise4.css`.
   - The link in the second div should be purple with a yellow background.
 
 ![Exercise4](images/exercise4.png)
+
+
+## Exercise #5: Specificity calculation
+
