@@ -58,8 +58,6 @@ Make the div with id `banner` appear in the top right corner of the page, 20px f
 
 ![Exercise3](images/exercise3.png)
 
-![Exercise3/2](images/exercise3_2.png)
-
 
 ## Exercise #4: Webshop
 
