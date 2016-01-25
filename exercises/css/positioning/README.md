@@ -21,26 +21,43 @@ Then, implement the requirements below using page-level CSS.
 
 The HTML files are given for each exercise. You are not allowed to edit the HTML structure (nor to add IDs or classes), only the CSS parts, inside `<style>`.
 
-### #2a) 
+**#2a)** [Starter file](exercise2a.html)
 
-[Starter file](exercise2a.html)
 Move the even boxes 10px up and the odd boxes 10px down with respect to their original position.
 
 ![Exercise2a](images/exercise2a.png)
 
 
-### #2b) 
+**#2b)** [Starter file](exercise2b.html)
 
-[Starter file](exercise2b.html)
 Create a border offset of 10px by the document. Make it entirely fluid (i.e., fill the browser window) as the document resizes (using absolute positioning).
 
 ![Exercise2b](images/exercise2b.png)
 
 
-### #2c) 
+**#2c)** [Starter file](exercise2c.html)
 
-[Starter file](exercise2c.html)
 Make the div with id `banner` appear in the top right corner of the page, 20px from the top and right sides of the window. Set the dimensions of the box to 120x480 and apply a 1px solid border around it. Display the image _images/banner_120x480.gif_ (by setting it as background to the div). The banner should stay at the same position even when the user scrolls the page.
 
 ![Exercise2c](images/exercise2c.png)
+
+
+## Exercise #3: Floating articles
+
+[Starter file](exercise3.html)
+
+  - Set the article dimensions to 200x100px and set some background.
+  - Make the articles float next to each other with 10px space in between them.  
+  - The text should not overflow the boxes.
+  - The article with the `promo` class should take an entire line on its own. Further,
+    * the content should be typeset in bold and made scrollable;
+    * change the height of this box to half of the regular (i.e., to 50px);
+    * inherit the background color from the body;
+    * separate it from the other content by red horizontal lines (achieve this by setting top and bottom padding and borders).
+
+
+![Exercise3](images/exercise3.png)
+
+![Exercise3/2](images/exercise3_2.png)
+
 
