@@ -18,8 +18,16 @@ Create the form below.
 
 Create the form below.
 
-  - Use css to set a fixed width for the fieldsets and to align the fields.
-    * Hint: you can set the width property of the `<label>` tag.
+  - Personal details:
+    * First and last name as text inputs, email address as input type email.
+    * Gender (male/female) as radio buttons (by default none of them is selected).
+  - List of magazines to be selected with checkboxes.
+  - Subscription period as a select list: 6, 12, 18, or 24 months.
+  - The submit button is labeled as "Subscribe".
+  - Use css to style the form:
+    * Set a fixed width for the fieldsets, apply a background color, and align them in the middle of the page. 
+    * Align the fields. (Hint: you can set the width property of the `<label>` tag.)
+    * Align the submit button in the middle of the page.
 
 ![Exercise2](images/exercise2.png)
 
