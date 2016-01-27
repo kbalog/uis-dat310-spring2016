@@ -7,9 +7,9 @@ Create the form below.
   - First and last name have a width of 10 characters; the user may enter up to 20 characters in each.
   - Email has a width of 20 characters; the user may enter an email address up to 35 characters long.
     * Use the HTML5 email input type.
-  - First and last names and email are obligatory. The other fields are optional.
+  - First and last names, and email are obligatory. The other fields are optional.
   - Label the input elements using `<label>`.
-  - The submit button should have the label `Send`.
+  - The submit button should have the label _Send_.
 
 ![Exercise1](images/exercise1.png)
 
