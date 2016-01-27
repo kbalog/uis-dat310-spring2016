@@ -61,7 +61,7 @@ Make the div with id `banner` appear in the top right corner of the page, 20px f
 
 ## Exercise #4: Webshop
 
-Complete the CSS parts in [exercise4.html](exercise4.html) such that it is displayed exactly as on the screenshot below. You don't need to edit the HTML structure.
+Complete the missing CSS parts in [exercise4.html](exercise4.html) such that it is displayed exactly as on the screenshot below. You don't need to edit the HTML structure.
 
   - Three products per row, with 10px spacing between the product boxes.
   - Product box is 260x370px (excluding borders); the images are 250x250px.
@@ -71,4 +71,4 @@ Complete the CSS parts in [exercise4.html](exercise4.html) such that it is displ
     * The text in the box has to be center-aligned both horizontally and vertically.
 
 
-![Exercise3](images/exercise4.png)
+![Exercise4](images/exercise4.png)
