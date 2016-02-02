@@ -5,8 +5,8 @@
 Look at the different display examples and execute them by opening the files on your local computer.
 
   - [Writing into the browser console](/examples/js/basics/display_console.html)
-  - Writing into an alert box
-  - Writing into the HTML output
+  - [Writing into an alert box](/examples/js/basics/display_alert.html)
+  - [Writing into the HTML output](/examples/js/basics/display_document.html)
 
 
 ## Exercise #2: Lucky number seven
