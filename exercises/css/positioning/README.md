@@ -1,4 +1,4 @@
-# CSS exercises, Part III (positioning)
+# CSS exercises, Part III. (positioning)
 
 ## Exercise #1: Hiding from a list
 
