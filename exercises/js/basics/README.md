@@ -25,7 +25,29 @@ Look at the different display examples and execute them by opening the files on 
   - Embed the `<script>` block inside the `<body>`.
   - You need to create the entire list (including `<ul>` and `</ul>`) using JavaScript! In other words, there cannot be anything outside `<script>...</script>` in the body part of your document.
 
-![Exercise2](images/exercise2b.png)
+![Exercise2b](images/exercise2b.png)
 
 
-  
+## Exercise #3: Greatest common divisor
+
+  - Write a function `gcd(a,b)` that takes two integers as input and returns their greatest common divisor.
+  - The simplest implementation is using [Euclid's algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm#Implementations).
+  - Call the function with values 48 and 18 and write the output to the console.
+
+
+## Exercise #4: Bank account
+
+  - Create a `BankAccount` class.
+  - The constructor takes two variables: name and initial balance.
+  - The class has two methods: `deposit(amount)` and `withdraw(amount)`.
+  - Upon withdrawal check if the person has sufficient funds (and display an error message if not).
+  - Write all JS code to the `exercise4.js` file. The HTML file [exercise4.html](exercise4.html) contains code for testing your class. (Use the web developer console of the browser to see the output.)
+
+![Exercise4](images/exercise4.png)
+
+
+## Exercise #5: String reversal
+
+  - Write a `reverse(s)` function that reverses the input string s.
+  - For example, `reverse("test string")` should return `"gnirts tset"`.
+
