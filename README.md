@@ -9,4 +9,4 @@ This repository contains examples and exercises from the DAT310 Web programming 
 | CSS, Part II. (selectors) | [slides](https://speakerdeck.com/kbalog/web-programming-css-part-ii) | [examples](examples/css/selectors) | [exercises](exercises/css/selectors) | [solutions](solutions/css/selectors) |
 | CSS, Part III. (positioning) | [slides](https://speakerdeck.com/kbalog/web-programming-css-part-iii) | [examples](examples/css/positioning) | [exercises](exercises/css/positioning) | [solutions](solutions/css/positioning) |
 | HTML Forms | [slides](https://speakerdeck.com/kbalog/web-programming-html-forms) | [examples](examples/html/forms) | [exercises](exercises/html/forms) | [solutions](solutions/html/forms) |
-
+| JavaScript (Part I.) | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-i-dot) | [examples](examples/js/basics) | [exercises](exercises/js/basics) | [solutions](solutions/js/basics) |
