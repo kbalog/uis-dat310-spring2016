@@ -5,7 +5,7 @@ function BankAccount(name, balance) {
     this.balance = balance;
     this.deposit = deposit;
     this.withdraw = withdraw;
-    this.log = new Array();
+    this.log = []; // equivalent to saying new Array();
     this.printLog = printLog;
 }
 
