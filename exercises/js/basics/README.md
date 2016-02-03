@@ -51,3 +51,9 @@ Look at the different display examples and execute them by opening the files on 
   - Write a `reverse(s)` function that reverses the input string s.
   - For example, `reverse("test string")` should return `"gnirts tset"`.
 
+
+## Exercise #6: Bank account with logging
+
+  - Extend the BankAccount class from Exercise #4 such that all transactions are logged.
+  - For each transaction, store date, transaction (deposit/withdrawal), old balance, new balance.
+  - Use the built-in Array and Date classes.
