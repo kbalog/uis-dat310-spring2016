@@ -40,10 +40,3 @@
 
 ![Exercise4](images/exercise4.png)
 
-
-## Exercise #5: Showing/hiding content
-
-  - You are given the [starter HTML file](exercise5.html).
-  - By default, show only the heading within each article. The show/hide links are used to show/hide the body of the article (div with the "text" class).
-
-![Exercise5](images/exercise5.png)
