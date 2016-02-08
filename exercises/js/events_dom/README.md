@@ -21,8 +21,15 @@
   - Can you extend the code to work with an array of arbitrary colors? Whenever the div is clicked, change the color to the next on in the array (and start over after the last color).
 
 
-
 ## Exercise #3: Changing images
+
+  - The page shows a select list and a "no image" picture by default.
+  - Once the user changes the selection in the list, display the selected image.
+    * Set the src of the image to the option value and the alt of the image to the name of the option.
+
+![Exercise3](images/exercise3.png)
+
+![Exercise3/2](images/exercise3_2.png)
 
 
 ## Exercise #4: Formatting text
