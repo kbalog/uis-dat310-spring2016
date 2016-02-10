@@ -73,7 +73,7 @@
 
 ## Exercise #7: Simple playlist
 
-  - Create a simple playlist application where 
+  - Create a simple playlist application where users can add songs to a list. The song here is just a non-empty string.
   - The [starter HTML file](exercise7.html) contains the form and an empty playlist. There is an [external CSS file](exercise7.css) with the style declarations.
 
 ![Exercise7](images/exercise7.png)
@@ -90,7 +90,7 @@
   - When a colored tile is clicked
     * Write the code of that color inside the "selected" div
     * set the background of the "selected" div to that color
-  - You are given part of the JS code that collects the different colors in an array. (Only the exercise8.js file needs to be edited.)
+  - You are given the [HTML file](exercise8.html) and [part of the JS code](exercise8.js) that collects the different colors in an array. (Only the JS file needs to be edited.)
 
 ![Exercise8](images/exercise8.png)
     
