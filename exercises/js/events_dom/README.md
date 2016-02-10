@@ -67,7 +67,7 @@
 
 ## Exercise #6b: Advanced content show/hide
 
-  - Can you solve the previous exercise using only JS, without making any changes to [this HTML source] (where the IDs have been removed)?
+  - Can you solve the previous exercise using only JS, without making any changes to [this HTML source](exercise6b.html) (where the IDs have been removed)?
   - You may assume that all article tags have the same internal structure.
 
 
@@ -87,9 +87,9 @@
 ## Exercise #8: Color picker
 
   - Make a color picker that displays a color palette; display colored tiles (rectangles) in the "colors" div.
-  - When a colored tile is clicked
-    * Write the code of that color inside the "selected" div
-    * set the background of the "selected" div to that color
+  - When a colored tile is clicked:
+    * write the code of that color inside the "selected" div;
+    * set the background of the "selected" div to that color.
   - You are given the [HTML file](exercise8.html) and [part of the JS code](exercise8.js) that collects the different colors in an array. (Only the JS file needs to be edited.)
 
 ![Exercise8](images/exercise8.png)
