@@ -12,24 +12,23 @@ function initGrid() {
     }
 
     // creating colored tiles
-    var cdiv = document.getElementById("color");
+    var cdiv = document.getElementById("colors");
     for (var i = 0; i < colors.length; i++) {
         var tile = document.createElement("div");
-//        tile.addClass("choice");
+        tile.className = "choice";
         tile.style.backgroundColor = colors[i];
+        tile.addEventListener("click", tileClicked);
         cdiv.appendChild(tile);
     }
+}
+
+function tileClicked() {
+    var color = this.style.backgroundColor;
+    var sel = document.getElementById("selected");
+    sel.style.backgroundColor = color;
+    sel.innerHTML = color;
 }
 
 window.onload = function () {
     initGrid();
 }
-
-/*
-    // when a tile is clicked
-    $(".choice").click(function () {
-        var color = $(this).attr("color");
-        $("#selected").html(color);
-        $("#selected").css("background-color", color);
-    });
-*/

@@ -76,7 +76,7 @@
   - Create a simple playlist application where 
   - The [starter HTML file](exercise7.html) contains the form and an empty playlist. There is an [external CSS file](exercise7.css) with the style declarations.
 
-![Exercise6](images/exercise7.png)
+![Exercise7](images/exercise7.png)
 
 
 ## Exercise #7b: Advanced playlist
@@ -84,3 +84,13 @@
   - Extend the previous exercise such that songs can be removed too. Add a delete link or icon to each song; clicking the link/icon should remove the song from the list.
   
 
+## Exercise #8: Color picker
+
+  - Make a color picker that displays a color palette; display colored tiles (rectangles) in the "colors" div.
+  - When a colored tile is clicked
+    * Write the code of that color inside the "selected" div
+    * set the background of the "selected" div to that color
+  - You are given part of the JS code that collects the different colors in an array. (Only the exercise8.js file needs to be edited.)
+
+![Exercise8](images/exercise8.png)
+    
