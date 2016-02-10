@@ -25,3 +25,14 @@ ul#playlist li:first-child {
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
+
+/* added for 7b */
+ul#playlist li {
+    position: relative;
+}
+img.delete {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 32px;
+}
