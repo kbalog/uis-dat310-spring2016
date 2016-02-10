@@ -28,7 +28,6 @@
     * Set the src of the image to the option value and the alt of the image to the name of the option.
 
 ![Exercise3](images/exercise3.png)
-
 ![Exercise3/2](images/exercise3_2.png)
 
 
@@ -39,4 +38,49 @@
   - You can find the [starter HTML with the form controls here](exercise4.html).
 
 ![Exercise4](images/exercise4.png)
+
+
+## Exercise #5: Input check
+
+  - You are [given a form](exercise5.html) with two password fields and a submit button.
+  - Perform input check and display an error message next the the corresponding field if there is an error.
+    * Passwords must be at least 6 characters long.
+    * The two passwords must match.
+  - The placeholders for the error messages have already been prepared (div-s with class "err").
+  - By default the submit button should be hidden. Display the button only when there are no errors.
+
+![Exercise5/1](images/exercise5_1.png)
+![Exercise5/2](images/exercise5_2.png)
+![Exercise5/3](images/exercise5_3.png)
+
+
+
+## Exercise #6: Content show/hide
+
+  - You are given the [starter HTML file](exercise6.html).
+  - By default, show only the article headings (this can be achieved by setting the display property of the div with the text to "none" using inline CSS). 
+  - Clicking the "show" link should make the article body appear and the "show" link to disappear.
+  - Clicking the "hide" link should make the article body disappear and the "show" link appear.
+
+![Exercise6](images/exercise6.png)
+
+
+## Exercise #6b: Advanced content show/hide
+
+  - Can you solve the previous exercise using only JS, without making any changes to [this HTML source] (where the IDs have been removed)?
+  - You may assume that all article tags have the same internal structure.
+
+
+## Exercise #7: Simple playlist
+
+  - Create a simple playlist application where 
+  - The [starter HTML file](exercise7.html) contains the form and an empty playlist. There is an [external CSS file](exercise7.css) with the style declarations.
+
+![Exercise6](images/exercise7.png)
+
+
+## Exercise #7b: Advanced playlist
+
+  - Extend the previous exercise such that songs can be removed too. Add a delete link or icon to each song; clicking the link/icon should remove the song from the list.
+  
 
