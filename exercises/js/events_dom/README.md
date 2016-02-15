@@ -105,13 +105,17 @@ Make a game where the user (player) needs to find her way out from a labyrinth. 
    - Add the printConsole() method to the Labyrinth class.
    - Write JS code in [game.js](game.js) that creates a Labyrinth object and call the printConsole() when the page loads.
 
+![Exercise9/1](images/exercise9_1.png)
+
 ### Step 2
 
   - Implement a printDisplay(id) method that draws the labyrinth on the screen, inside the element with the provided id.
   - Call this method from `game.js` on the `map` div (instead of calling printConsole()).
+  - Set the size of the parent (`map`) div according to the size of the labyrinth and apply a solid border around it.
   - Represent cells as rectangles (divs) with grey background for walls and white background for spaces. The `CELL_SIZE` global variable specifies the size (width and height) of rectangles.
-  - You can use absolute positioning within the parent (`map`) div.
-  - Set the size of the parent (`map`) div according to the size of the labyrinth.
+  - You can use absolute positioning within the parent (`map`) div (but don't forget to set the positioning of the parent to non-static).
+
+![Exercise9/2](images/exercise9_2.png)
 
 ### Step 3
 
@@ -121,7 +125,7 @@ Make a game where the user (player) needs to find her way out from a labyrinth. 
 
 ### Step 4
 
-  - Display the character's position on the map. You can use a div with a different background color or an image.
+  - Display the character's position on the map. You can use a div with a different background color or an image. Also, indicate the destination cell with a different background color or image.
   - Allow the character to move by pressing the up/down/left/right arrow keys.
   - Display an alert window with "Congratulations!" if the character reaches the end (destination) cell.
   
