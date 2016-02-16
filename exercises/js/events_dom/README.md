@@ -119,13 +119,10 @@ Make a game where the user (player) needs to find her way out from a labyrinth. 
 
 ### Step 3
 
-  - Extend the class with the start and end (destination) coordinates of the character.
-  - Initially, the player stands at the start position.
-  - Add methods for moving the player up, down, left, and right. For each move, check if the player would (i) move out of the map or (ii) move on a wall, and perform the actual move if there is an empty space to move to.
-
-### Step 4
-
-  - Display the character's position on the map. You can use a div with a different background color or an image. Also, indicate the destination cell with a different background color or image.
-  - Allow the character to move by pressing the up/down/left/right arrow keys.
+  - Extend the class with constants that specify the start and end (destination) coordinates of the character. Initially, the character stands at the start position.
+  - Display the character on the map. You can use a div with a different background color or an image. Also, indicate the destination cell with a different background color or image.
+  - Allow the user to move the character up, down, left, and right using the respective keys. For each move, check if the character would (i) move out of the map or (ii) move on a wall, and perform the actual move if there is an empty space to move to.
   - Display an alert window with "Congratulations!" if the character reaches the end (destination) cell.
+
+![Exercise9/3](images/exercise9_3.png)
   
