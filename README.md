@@ -11,4 +11,4 @@ This repository contains examples and exercises from the DAT310 Web programming 
 | HTML Forms | [slides](https://speakerdeck.com/kbalog/web-programming-html-forms) | [examples](examples/html/forms) | [exercises](exercises/html/forms) | [solutions](solutions/html/forms) |
 | JavaScript Part I. | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-i) | [examples](examples/js/basics) | [exercises](exercises/js/basics) | [solutions](solutions/js/basics) |
 | JavaScript Part II. | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-ii) | [examples](examples/js/events_dom) | [exercises](exercises/js/events_dom) | [solutions](solutions/js/events_dom) |
-| Web servers and protocols | [slides](https://speakerdeck.com/kbalog/web-programming-web-servers-and-protocols) |  | [exercises](http) | [solutions](http) |
+| Web servers and protocols | [slides](https://speakerdeck.com/kbalog/web-programming-web-servers-and-protocols) |  | [exercises](exercises/http) | [solutions](exercises/http) |
