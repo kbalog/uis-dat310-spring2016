@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #2: Form submission (GET)</title>
+</head>
+<body>
+<form name="testform" action="formhandler2.php" method="POST">
+    <div>
+        <label>Name
+            <input type="text" name="name" size="20" placeholder="Firstname, lastname"/>
+        </label>
+    </div>
+    <div>
+        <label>Pick one
+            <input type="radio" name="drink" value="coffee"/> Coffee
+            <input type="radio" name="drink" value="tea"/> Tea
+            <input type="radio" name="drink" value="milk"/> Milk
+        </label>
+    </div>
+    <div>
+        <label>Pick zero or more
+            <input type="checkbox" name="option_a" value="1"/> Option A
+            <input type="checkbox" name="option_b" value="1"/> Option B
+            <input type="checkbox" name="option_c" value="1"/> Option C
+        </label>
+    </div>
+    <input type="submit" name="submit" value="Send">
+</form>
+</body>
+</html>
