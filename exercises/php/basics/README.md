@@ -24,9 +24,9 @@ See the [PHP string functions reference](http://www.w3schools.com/php/php_ref_st
 Write a function `strength($password)` that takes a string password as input and returns the password's strength as an integer:
 
   - **0** means the input string was empty.
-  - **1** means _weak_ password: less than 6 characters long OR contains only letters.
-  - **2** means _medium_ password: less than 8 characters long AND contains both lower- and uppercase letters and at least one number.
+  - **2** means _medium_ password: at least 6 characters long AND contains both lower- and uppercase letters and at least one number.
   - **3** means _strong_ password: more than 8 characters long, contains both lower- and uppercase letters, numbers (more than one), and at least one non alphanumeric character.
+  - **1** means _weak_ password: otherwise.
 
 
 ## Exercise #4: Computing mean and median
