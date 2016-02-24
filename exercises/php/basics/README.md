@@ -100,6 +100,8 @@ Write a PHP function `displayCalendar($year, $month)` that displays the calendar
 
 Hint: use the [date() function](http://php.net/manual/en/function.date.php) to find out the number of days in a month, day of the week, etc.
 
+![Exercise9](images/exercise9.png)
+
 
 ## Exercise #10:
 
