@@ -16,12 +16,13 @@ function meanAndMedian($numbers) {
         for ($i = 0; $i < count($numbers); $i++) {
             $sum += $numbers[$i];
         }
+        // alternatively: $sum = array_sum($numbers)
         $mean = $sum / count($numbers);
 
         // median
         sort($numbers); // sort numbers first
         if (count($numbers) % 2 == 1) { // odd number of numbers
-            $middle = floor(count($numbers) / 2); // need to be rounded down
+            $middle = (count($numbers) - 1) / 2; // middle element
             $median = $numbers[$middle];
         } else { // even number of numbers
             $middle = count($numbers) / 2; // no rounding needed
