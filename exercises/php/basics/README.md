@@ -109,17 +109,15 @@ Building on the previous exercise, make a PHP script that first displays the yea
 
 ![Exercise10_1](images/exercise10_1.png)
 
-Once the user selects a year, show it in `<h1>` and display the months from Jan to Dec as an unordered list with links.
+Once the user selects a year, show it in `<h1>` and display the months from Jan to Dec as an unordered list with links. Provide a "back" link at the bottom of each page that takes the user back to year selection.
 
 ![Exercise10_2](images/exercise10_2.png)
 
-Once the user selects a month, display the calendar of that month, using the `displayCalendar($year, $month)` function from the previous exercise.
+Once the user selects a month, display the calendar of that month, using the `displayCalendar($year, $month)` function from the previous exercise. Provide a "back" link at the bottom of each page that takes the user back to month selection (while remembering the year).
 
-Provide a "back" link at the bottom of each page that takes the user back to the previous page. I.e.,
-  - If "back" is pressed on the calendar page, take the user back to month selection, while remembering the year.
-  - If "back" is pressed on the month selection page, take the user back to year selection.
+![Exercise10_3](images/exercise10_3.png)
 
-
+ 
 ## Exercise #11:
 
 Instead of using lists, display both the years and the months as select lists in a form. Display the calendar when the user presses the "Display" button, but keep the year and month selection visible at the top of the page.
