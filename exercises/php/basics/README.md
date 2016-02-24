@@ -103,13 +103,15 @@ Hint: use the [date() function](http://php.net/manual/en/function.date.php) to f
 ![Exercise9](images/exercise9.png)
 
 
-## Exercise #10:
+## Exercise #10: Calendar
 
 Building on the previous exercise, make a PHP script that first displays the years from 2000 to 2020 as an unordered list with links.
 
+![Exercise10_1](images/exercise10_1.png)
 
-Once the user selects a year, display the months from Jan to Dec as an unordered list with links.
+Once the user selects a year, show it in `<h1>` and display the months from Jan to Dec as an unordered list with links.
 
+![Exercise10_2](images/exercise10_2.png)
 
 Once the user selects a month, display the calendar of that month, using the `displayCalendar($year, $month)` function from the previous exercise.
 
