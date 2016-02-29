@@ -28,6 +28,9 @@ function get_value_post($var) {
 
 function display_form($name = "", $email = "", $year = "", $month = "", $day = "", $sex = "", $terms = "", $errors = array()) {
 
+    // TODO display list of errors
+
+    // TODO display errors for each field
     echo '<form name="reg" action="" method="POST">
     <div>
         <label>Name
@@ -90,7 +93,7 @@ if ($submitted) {
     // check for errors
     $errors = array(); // associative array indexed with field names holding errors
 
-    // TODO
+    // TODO check input fields
 
     if (count($errors) > 0) {
         display_form($name, $email, $year, $month, $day, $sex, $terms, $errors);
