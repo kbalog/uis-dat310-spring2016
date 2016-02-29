@@ -123,7 +123,6 @@ Once the user selects a month, display the calendar of that month, using the `di
 Instead of using lists, display both the years and the months as select lists in a form. Display the calendar when the user presses the "Display" button. Keep the year and month selection always visible at the top of the page. The form should "remember" the selected year and month values.
 
 ![Exercise11_1](images/exercise11_1.png)
-
 ![Exercise11_2](images/exercise11_2.png)
 
 
@@ -141,7 +140,5 @@ Instead of using lists, display both the years and the months as select lists in
   * If all input is valid, then display a confirmation page.
 
   ![Exercise12_1](images/exercise12_1.png)
-
   ![Exercise12_2](images/exercise12_2.png)
-
   ![Exercise12_3](images/exercise12_3.png)
