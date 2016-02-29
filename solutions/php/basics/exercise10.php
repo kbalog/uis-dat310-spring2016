@@ -25,6 +25,9 @@ if (isset($_GET['year'])) {
     if (isset($_GET['month'])) {
         $month = $_GET['month'];
         displayCalendar($year, $month);
+
+        // add a back link
+        echo "<br><a href='exercise10.php?year=" . $year . "'>back to month selection</a>";
     }
     else {
         displayMonths($year);

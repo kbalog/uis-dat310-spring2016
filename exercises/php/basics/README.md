@@ -117,7 +117,26 @@ Once the user selects a month, display the calendar of that month, using the `di
 
 ![Exercise10_3](images/exercise10_3.png)
 
- 
-## Exercise #11:
 
-Instead of using lists, display both the years and the months as select lists in a form. Display the calendar when the user presses the "Display" button, but keep the year and month selection visible at the top of the page.
+## Exercise #11: Calendar
+
+Instead of using lists, display both the years and the months as select lists in a form. Display the calendar when the user presses the "Display" button. Keep the year and month selection always visible at the top of the page. The form should "remember" the selected year and month values.
+
+![Exercise11_1](images/exercise11_1.png)
+
+![Exercise11_2](images/exercise11_2.png)
+
+
+
+## Exercise #12: Registration form
+
+This registration form contains name, email, date of birth, and sex fields. Additionally, there is a checkbox for accepting terms and service.
+
+  * Initialize the date fields with values from PHP (with for loops).
+  * When the user submits the form, check if all fields have been filled in and the values are valid. If there are errors, then display the form again, but remember the values that were already filled in.
+    - Name must not be empty.
+    - Email address must be valid; you can use the [filter_var() function](http://php.net/manual/en/filter.examples.validation.php) for validating email addresses.
+    - Date must not be empty, must be valid (e.g., 2016-02-30 is invalid), and the person has to be minimum 5 years old.
+    - Sex must not be empty.
+    - The terms must be accepted.
+  * If all input is valid, then display a confirmation page.

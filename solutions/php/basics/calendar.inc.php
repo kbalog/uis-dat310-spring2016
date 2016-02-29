@@ -57,9 +57,6 @@ function displayCalendar($year, $month) {
     }
 
     echo "</tbody></table>";
-
-    // add a back link
-    echo "<br><a href='exercise10.php?year=" . $year . "'>back to month selection</a>";
 }
 
 /**
