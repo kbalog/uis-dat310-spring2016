@@ -4,6 +4,8 @@
 
 Take [Exercise #12](../../../solutions/php/basics/exercise12.php) (registration form) from earlier as a starting point and save the submitted values to a text file in tab separated format.
 
+![Exercise1](images/exercise1.png)
+
 
 ## Exercise #2: Listing users from file
 
