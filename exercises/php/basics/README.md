@@ -127,16 +127,21 @@ Instead of using lists, display both the years and the months as select lists in
 ![Exercise11_2](images/exercise11_2.png)
 
 
-
 ## Exercise #12: Registration form
 
-This registration form contains name, email, date of birth, and sex fields. Additionally, there is a checkbox for accepting terms and service.
+[This registration form](exercise12.php) contains name, email, date of birth, and sex fields. Additionally, there is a checkbox for accepting terms and conditions.
 
   * Initialize the date fields with values from PHP (with for loops).
-  * When the user submits the form, check if all fields have been filled in and the values are valid. If there are errors, then display the form again, but remember the values that were already filled in.
-    - Name must not be empty.
+  * When the user submits the form, check if all fields have been filled in and the values are valid. If there are errors, then display the form again, but remember the values that were already filled in. Also, list the errors at the top of the page and display the problematic fields with a light red background and with red text.
+    - Name must be at least 3 characters long.
     - Email address must be valid; you can use the [filter_var() function](http://php.net/manual/en/filter.examples.validation.php) for validating email addresses.
     - Date must not be empty, must be valid (e.g., 2016-02-30 is invalid), and the person has to be minimum 5 years old.
     - Sex must not be empty.
-    - The terms must be accepted.
+    - Terms and conditions must be accepted.
   * If all input is valid, then display a confirmation page.
+
+  ![Exercise12_1](images/exercise12_1.png)
+
+  ![Exercise12_2](images/exercise12_2.png)
+
+  ![Exercise12_3](images/exercise12_3.png)
