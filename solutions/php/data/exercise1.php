@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Exercise #12: Registration form</title>
+    <title>Exercise #1: Saving users to file</title>
     <style>
         div {
             margin-bottom: 5px;
@@ -37,7 +37,7 @@ function display_form($name = "", $email = "", $year = "", $month = "", $day = "
         echo '</ul></div>';
     }
 
-    echo '<form name="reg" action="exercise12.php" method="POST">';
+    echo '<form name="reg" action="exercise1.php" method="POST">';
     $error_name = array_key_exists("name", $errors) ? ' class="error"' : '';
     echo '<div' . $error_name . '><label>Name <input type="text" name="name" value="' . $name . '" size="20"/></label></div>';
 
@@ -81,6 +81,12 @@ function confirm($name, $email, $year, $month, $day, $sex) {
     echo "Email: " . $email . "<br>";
     echo "Date of birth: " . $year . "-" . $month . "-" . $day . "<br>";
     echo "Sex: " . $sex . "<br>";
+}
+
+function save_to_file($filename, $name, $email, $year, $month, $day, $sex) {
+    $fh = fopen($filename, 'a') or die("can't open file");
+    fwrite($fh, $name . "\t" . $email . "\t" . $year . "-" . $month . "-" . $day . "\t" . $sex . "\n");
+    fclose($fh);
 }
 
 // read in form values
@@ -133,6 +139,7 @@ if ($submitted) {
     }
     else {
         confirm($name, $email, $year, $month, $day, $sex);
+        save_to_file("users.txt", $name, $email, $year, $month, $day, $sex);
     }
 }
 else {

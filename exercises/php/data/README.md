@@ -13,6 +13,8 @@ Write a PHP script that loads all registered users from the textfile used in the
 
   * Hint: you can use the [explode() function](http://php.net/manual/en/function.explode.php) to split a string along tab characters.
 
+![Exercise2](images/exercise2.png)
+
 
 ## Exercise #3: Saving users to MySQL table
 
