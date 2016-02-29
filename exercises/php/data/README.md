@@ -11,6 +11,8 @@ Take [Exercise #12](../../../solutions/php/basics/exercise12.php) (registration 
 
 Write a PHP script that loads all registered users from the textfile used in the previous exercise, and displays them in a table.
 
+  * Hint: you can use the [explode() function](http://php.net/manual/en/function.explode.php) to split a string along tab characters.
+
 
 ## Exercise #3: Saving users to MySQL table
 
