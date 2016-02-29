@@ -13,3 +13,4 @@ This repository contains examples and exercises from the 2016 spring DAT310 Web 
 | JavaScript Part II. (events, DOM) | [slides](https://speakerdeck.com/kbalog/web-programming-javascript-part-ii) | [examples](examples/js/events_dom) | [exercises](exercises/js/events_dom) | [solutions](solutions/js/events_dom) |
 | Web servers and protocols | [slides](https://speakerdeck.com/kbalog/web-programming-web-servers-and-protocols) |  | [exercises](exercises/http) | [solutions](exercises/http) |
 | PHP Part I. (basics) | [slides](https://speakerdeck.com/kbalog/web-programming-php-part-i) | [examples](examples/php/basics) | [exercises](exercises/php/basics) | [solutions](solutions/php/basics) |
+| PHP Part II. (data) | [slides](https://speakerdeck.com/kbalog/web-programming-php-part-ii) | [examples](examples/php/data) | [exercises](exercises/php/data) | [solutions](solutions/php/data) |
