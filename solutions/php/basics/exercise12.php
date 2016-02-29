@@ -28,21 +28,23 @@ function get_value_post($var) {
 
 function display_form($name = "", $email = "", $year = "", $month = "", $day = "", $sex = "", $terms = "", $errors = array()) {
 
-    // TODO display list of errors
+    // displaying all errors
+    if (count($errors) > 0) {
+        echo '<div class="error small"><ul>';
+        foreach ($errors as $field => $val) {
+            echo "<li>" . $val . "</li>";
+        }
+        echo '</ul></div>';
+    }
 
-    // TODO display errors for each field
-    echo '<form name="reg" action="" method="POST">
-    <div>
-        <label>Name
-            <input type="text" name="name" size="20"/>
-        </label>
-    </div>
-    <div>
-        <label>Email
-            <input type="email" name="email" size="20"/>
-        </label>
-    </div>
-    <div>
+    echo '<form name="reg" action="exercise12.php" method="POST">';
+    $error_name = array_key_exists("name", $errors) ? ' class="error"' : '';
+    echo '<div' . $error_name . '><label>Name <input type="text" name="name" value="' . $name . '" size="20"/></label></div>';
+
+    $error_email = array_key_exists("email", $errors) ? ' class="error"' : '';
+    echo '<div' . $error_email . '><label>Email <input type="email" name="email" value="' . $email . '" size="20"/></label></div>';
+
+    echo '<div>
         <label>Date of birth
     <select name="year">
                 <option value="2000">2000</option>
@@ -55,17 +57,21 @@ function display_form($name = "", $email = "", $year = "", $month = "", $day = "
             </select>
         </label>
     </div>
-    <div>
-        <label>Sex
-            <input type="radio" name="sex" value="male"/> Male
-            <input type="radio" name="sex" value="female"/> Female
-        </label>
-    </div>
-    <div>
-        <input type="checkbox" name="terms" value="1"/> I accept the terms and conditions.
-    </div>
-    <input type="submit" name="submit" value="Register">
-</form>';
+    ';
+
+    $error_sex = array_key_exists("sex", $errors) ? ' class="error"' : '';
+    echo '<div' . $error_sex . '><label>Sex';
+    $male_sel = ($sex == "male") ? " checked" : "";
+    $female_sel = ($sex == "female") ? " checked" : "";
+    echo '<input type="radio" name="sex" value="male" ' . $male_sel . '/> Male';
+    echo '<input type="radio" name="sex" value="female" ' . $female_sel . '/> Female';
+    echo '</label></div>';
+
+    $error_terms = array_key_exists("terms", $errors) ? ' class="error"' : '';
+    $terms_sel = ($terms == 1) ? " checked" : "";
+    echo '<div ' . $error_terms . '><input type="checkbox" name="terms" value="1" '. $terms_sel .' /> I accept the terms and conditions.</div>';
+
+    echo '<input type="submit" name="submit" value="Register"></form>';
 
 }
 
@@ -93,7 +99,34 @@ if ($submitted) {
     // check for errors
     $errors = array(); // associative array indexed with field names holding errors
 
-    // TODO check input fields
+    // name
+    if (strlen($name) == 0) {
+        $errors['name'] = "Name is missing";
+    }
+    elseif (strlen($name) < 3) {
+        $errors['name'] = "Invalid name";
+    }
+
+    // email
+    if (strlen($email) == 0) {
+        $errors['email'] = "Email is missing";
+    }
+    elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $errors['email'] = "Invalid email address";
+    }
+
+    // date
+    // TODO
+    
+    // sex
+    if (strlen($sex) == 0) {
+        $errors['sex'] = "Sex is missing";
+    }
+
+    // terms
+    if ($terms != 1) {
+        $errors['terms'] = "Terms and conditions must be accepted";
+    }
 
     if (count($errors) > 0) {
         display_form($name, $email, $year, $month, $day, $sex, $terms, $errors);
