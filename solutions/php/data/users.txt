@@ -1,2 +1,3 @@
-John Smith	js@gmail.com	2000-1-1	male
-Mrs. John Smith	jsms@gmail.com	2000-1-1	female
+John Smith	john.smith@gmail.com	1976-05-04	male
+Matthew Gordon	mgordon@outlook.com	1979-09-14	male
+Andrea Luck	anrea.luck@me.com	1992-02-22	female

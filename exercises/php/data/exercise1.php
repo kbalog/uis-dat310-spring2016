@@ -25,9 +25,7 @@
 require("reg.inc.php");
 
 function save_to_file($filename, $name, $email, $year, $month, $day, $sex) {
-    $fh = fopen($filename, 'a') or die("can't open file");
-    fwrite($fh, $name . "\t" . $email . "\t" . $year . "-" . $month . "-" . $day . "\t" . $sex . "\n");
-    fclose($fh);
+    // TODO
 }
 
 // read in form values

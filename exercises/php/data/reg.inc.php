@@ -1,26 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Exercise #12: Registration form</title>
-    <style>
-        div {
-            margin-bottom: 5px;
-            padding: 3px;
-            width: 400px;
-        }
-        .error {
-            background-color: #ffcccc;
-            color: red;
-        }
-        .small {
-            font-size: 0.8em;
-        }
-    </style>
-</head>
-<body>
-
 <?php
+/**
+ * Functions from PHP basics Exercise #12 (Registration form)
+ */
+
 
 function get_value_post($var) {
     return isset($_POST[$var]) ? $_POST[$var] : "";
@@ -37,7 +19,10 @@ function display_form($name = "", $email = "", $year = "", $month = "", $day = "
         echo '</ul></div>';
     }
 
-    echo '<form name="reg" action="exercise12.php" method="POST">';
+    // instead of having a fixed action value (e.g., exercise12.php)
+    // we set it to the name of the current PHP script
+    echo '<form name="reg" action="' . $_SERVER['PHP_SELF'] . '" method="POST">';
+
     $error_name = array_key_exists("name", $errors) ? ' class="error"' : '';
     echo '<div' . $error_name . '><label>Name <input type="text" name="name" value="' . $name . '" size="20"/></label></div>';
 
@@ -152,36 +137,3 @@ function input_check($name, $email, $year, $month, $day, $sex, $terms) {
 
     return $errors;
 }
-
-// read in form values
-$name = get_value_post("name");
-$email = get_value_post("email");
-$year = get_value_post("year");
-$month = get_value_post("month");
-$day = get_value_post("day");
-$sex = get_value_post("sex");
-$terms = get_value_post("terms");
-
-// check if the form has been submitted -- any of the input values is set
-$submitted = isset($_POST['name']);
-
-if ($submitted) {
-    // check for errors
-    $errors = input_check($name, $email, $year, $month, $day, $sex, $terms);
-
-    if (count($errors) > 0) {
-        display_form($name, $email, $year, $month, $day, $sex, $terms, $errors);
-    }
-    else {
-        confirm($name, $email, $year, $month, $day, $sex);
-    }
-}
-else {
-    // display form for the first time
-    display_form();
-}
-
-?>
-
-</body>
-</html>

@@ -134,7 +134,13 @@ Instead of using lists, display both the years and the months as select lists in
   * When the user submits the form, check if all fields have been filled in and the values are valid. If there are errors, then display the form again, but remember the values that were already filled in. Also, list the errors at the top of the page and display the problematic fields with a light red background and with red text.
     - Name must be at least 3 characters long.
     - Email address must be valid; you can use the [filter_var() function](http://php.net/manual/en/filter.examples.validation.php) for validating email addresses.
-    - Date must not be empty, must be valid (e.g., 2016-02-30 is invalid), and the person has to be minimum 5 years old.
+    - Date must not be empty, must be valid (e.g., 2016-02-30 is invalid), and the person has to be minimum 5 years old.  
+      * Hint: use the [checkdate()](http://php.net/manual/en/function.checkdate.php) function for checking the validity of the date. (Mind the ordering of the parameters!)
+      * You can use the built-in [DateTime class](http://php.net/manual/en/class.datetime.php) to compare dates. Note that this works too:
+```php
+$time_min = new DateTime("now");
+$time_min->modify('-5 years');
+```
     - Sex must not be empty.
     - Terms and conditions must be accepted.
   * If all input is valid, then display a confirmation page.

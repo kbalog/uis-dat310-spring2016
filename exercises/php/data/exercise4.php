@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Exercise #1: Saving users to file</title>
+    <title>Exercise #4: Saving users to MySQL table</title>
     <style>
         div {
             margin-bottom: 5px;
@@ -24,10 +24,16 @@
 
 require("reg.inc.php");
 
-function save_to_file($filename, $name, $email, $year, $month, $day, $sex) {
-    $fh = fopen($filename, 'a') or die("can't open file");
-    fwrite($fh, $name . "\t" . $email . "\t" . $year . "-" . $month . "-" . $day . "\t" . $sex . "\n");
-    fclose($fh);
+// TODO update these settings
+$db_server = "localhost";
+$db_username = "root";
+$db_password = "root";
+$db_database = "dat310_lectures";
+
+function save_to_mysql($name, $email, $year, $month, $day, $sex) {
+    global $db_server, $db_username, $db_password, $db_database;
+
+    // TODO
 }
 
 // read in form values
@@ -51,7 +57,7 @@ if ($submitted) {
     }
     else {
         confirm($name, $email, $year, $month, $day, $sex);
-        save_to_file("users.txt", $name, $email, $year, $month, $day, $sex);
+        save_to_mysql($name, $email, $year, $month, $day, $sex);
     }
 }
 else {
