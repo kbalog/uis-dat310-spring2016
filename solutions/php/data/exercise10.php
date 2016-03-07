@@ -87,7 +87,7 @@ switch ($action) {
 }
 
 // user is logged in
-if (isset($_SESSION['username']) > 0) {
+if (isset($_SESSION['username'])) {
     echo "Name: " . $_SESSION['name'] . "<br>";
     echo "Username: " . $_SESSION['username'] . "<br>";
     echo "Email: " . $_SESSION['email'] . "<br><br>";
