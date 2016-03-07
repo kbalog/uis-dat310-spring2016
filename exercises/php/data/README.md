@@ -53,3 +53,23 @@ In this exercise we update Exercises #4 and #5 to use prepared statements.
 
   - **Exercise #6a** Update [this code](exercise6a.php) to save users to MySQL using prepared statements
   - **Exercise #6b** Update [this code](exercise6b.php) to list users from MySQL using prepared statements
+
+
+## Exercise #7: Login using cookies
+
+  - Run exercise7.php on localhost and log in (see the source for usernames/passwords)
+  - Check the cookie stored on your computer, using a browser or a browser plugin
+    * E.g., [Cookie Inspector](https://chrome.google.com/webstore/detail/cookie-inspector/jgbbilmfbammlbbhmmgaagdkbkepnijn?hl=en) for Chrome
+  - Do you see any problems with this solution?
+
+
+## Exercise #8: Shopping cart
+
+Implement the following methods in the ShoppingCart class:
+  - `addProduct()` adds a product (product_id and qt as parameters)
+  - `removeProduct()` Removes a product (product_id)
+  - `listProducts()` Lists all products in the shopping cart
+
+Store the contents of the shopping cart in the session. Hint: use an associative array that is indexed with the product_id and stores quantity as the value.
+
+![Exercise8](images/exercise8.png)
