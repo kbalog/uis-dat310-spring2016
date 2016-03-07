@@ -73,3 +73,27 @@ Implement the following methods in the ShoppingCart class:
 Store the contents of the shopping cart in the session. Hint: use an associative array that is indexed with the product_id and stores quantity as the value.
 
 ![Exercise8](images/exercise8.png)
+
+
+## Exercise #9: Registration
+
+  - Create a registration form with name, username, email, password fields.
+  - Check that none of the input fields is empty.
+  - Create a users table and store the sign-ups there.
+  - Use prepared MySQL statements.
+  - Store hashed passwords instead of the raw values.
+    * Use blowfish hashing with a random salt (see [usage](../../../examples/php/data/password_blowfish.php)).
+    * If your PHP installation does not supports Blowfish, use `md5()` instead for now.
+
+![Exercise9](images/exercise9.png)
+
+
+## Exercise #10: Login
+
+  - Implement login functionality using sessions.
+    * Store all user details (except password hash) in the session.
+    * Show a page with the user's details (name, username, email) if the user is logged in; otherwise, show the login form.
+  - Use the credentials stored in the users table from the previous exercise.
+  - Note: you can use [exercise7](../../../exercises/php/data/exercise7.php) as a starting point.
+
+  ![Exercise10](images/exercise10.png)
