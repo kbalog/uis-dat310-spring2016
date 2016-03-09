@@ -12,16 +12,16 @@
      * Use SFTP to copy Smarty to your `public_html` folder
      * If all goes well, going to <http://www.ux.uis.no/~yourusername/Smarty-3.1.21/> will display a list of files
         * Replace 3.1.21 with your Smarty version
-  
+
 ## Setting up a Smarty project
 
-  1. Set the `SMARTY_DIR` in PHP 
-     * You can use an absolute path `/home/stud/yourusername/public_html/Smarty-3.1.21/libs/`
-     * or a relative one, e.g., `../Smarty-3.1.21/libs/`
+  1. Set the `SMARTY_DIR` in PHP
+     * You can use an absolute path `/home/stud/yourusername/public_html/Smarty-3.1.28/libs/`
+     * or a relative one, e.g., `../Smarty-3.1.28/libs/`
      * Replace 3.1.21 with your Smarty version
   2. Set the `PROJECT_DIR` in PHP. 
      * You can simply leave it empty `define("PROJECT_DIR", "");`
-  3. Make sure your project has a `smarty` directory with the following sub-directories: 
+  3. Make sure your project has a `smarty` directory with the following sub-directories:
      * `cache`
      * `config`
      * `templates`
@@ -35,9 +35,9 @@
 ### Troubleshooting
 
   * If <http://www.ux.uis.no/~yourusername> does not display any content, then you forgot the homepage-open step. See the top of this document.
-  * If you get a Smarty error (*PHP Fatal error: Uncaught --> Smarty: unable to write file ./templates_c/...*), it is because of permission issues. 
+  * If you get a Smarty error (*PHP Fatal error: Uncaught --> Smarty: unable to write file ./templates_c/...*), it is because of permission issues.
     * You can test your setup with `$smarty->testInstall();` This will tell you if Smarty has all the necessary permissions.
-    * If you find that `cache` and `templates_c` are not writeable (despite that you set chmod 777), you need to 
+    * If you find that `cache` and `templates_c` are not writeable (despite that you set chmod 777), you need to
       * ssh into badne7.ux.uis.no
       * go to your smarty directory
       * `setfacl --remove-all cache`
@@ -46,7 +46,7 @@
 
 ## Connecting to MySQL    
 
-  * You have received an email with your MySQL credentials (username, password, database) from the UNIX system administrator. 
+  * You have received an email with your MySQL credentials (username, password, database) from the UNIX system administrator.
     * If you have not received such email, send a mail to Theodor Ivesdal <theo@ux.uis.no> saying that you need a MySQL database for this course. You need to send him your UX username!
   * You can work with the database from the UNIX shell or using a DB management tool, like MySQLWorkbench
   * Mind that you cannot connect directly to the MySQL on UX (for example, setting the host to mysql.ux.uis.no in a PHP script that runs on your localhost will not work); you can connect directly from the other ux.uis machines or use SSH tunneling.
@@ -58,7 +58,7 @@
     * replace `balog` with your MySQL username
     * replace `dbbalog` with your MySQL database
     * use the MySQL password (not the same as your UX password!)
-  
+
 ### Connecting to MySQL from MySQLWorkbench  
 
   1. Create a new connection with the following settings
@@ -72,4 +72,3 @@
     * Password: your MySQL password
   2. Connect
     * If you get a connection error, you might need to enable *use old authentication protocol* on the Advanced tab
-    

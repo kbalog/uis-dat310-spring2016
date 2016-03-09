@@ -14,3 +14,4 @@ This repository contains examples and exercises from the 2016 spring DAT310 Web 
 | Web servers and protocols | [slides](https://speakerdeck.com/kbalog/web-programming-web-servers-and-protocols) |  | [exercises](exercises/http) | [solutions](exercises/http) |
 | PHP Part I. (basics) | [slides](https://speakerdeck.com/kbalog/web-programming-php-part-i) | [examples](examples/php/basics) | [exercises](exercises/php/basics) | [solutions](solutions/php/basics) |
 | PHP Part II. (data) | [slides](https://speakerdeck.com/kbalog/web-programming-php-part-ii) | [examples](examples/php/data) | [exercises](exercises/php/data) | [solutions](solutions/php/data) |
+| PHP Part III. (Smarty) | [slides](https://speakerdeck.com/kbalog/web-programming-php-part-iii) | [examples](examples/php/smarty) | [exercises](exercises/php/smarty) | [solutions](solutions/php/smarty) |
