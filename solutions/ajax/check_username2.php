@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of Exercise #1
+ * This file is part of Exercise #2
  */
 
 function is_taken($username) {

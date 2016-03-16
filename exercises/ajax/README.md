@@ -17,3 +17,18 @@ Check on the registration form whether the given username meets the requirements
 ## Exercise #2: Checking username
 
 Change your solution to Exercise #1 such that the data from the server is requested using POST.
+
+
+## Exercise #3: Inventory
+
+Assume that there is an inventory database where each item has a 3-digit unique identifier (e.g., `021`, `987`, etc.). For know, this data is stored as an associative array in the php file.
+
+  - Complete [invertory.php](invertory.php) such that an inventory item can be looked up based on its 3-digit identifier. Return the inventory record as a JSON object. For example `inventory.php?item_id=123` should return
+
+```
+{"name":"Test item","brand":"CompanyX","size_x":11,"size_y":22,"size_z":33,"price":1000,"available":false}
+```
+
+  - Complete [exercise3.js](exercise3.js) to parse the JSON response and display the values in the corresponding form fields.
+
+  ![Exercise3](images/exercise3.png)
