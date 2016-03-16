@@ -9,7 +9,8 @@
   2. Copy Smarty to public_html
      * Use an FTP client, e.g., [FileZilla](https://filezilla-project.org/)
         * during FileZilla installation don't blindly click "Next" as that would install two additional programs that you don't need
-     * Use SFTP to copy Smarty to your `public_html` folder
+     * Connect using **SFTP** (simple FTP won't work!)
+     * Copy Smarty to your `public_html` folder
      * If all goes well, going to <http://www.ux.uis.no/~yourusername/Smarty-3.1.21/> will display a list of files
         * Replace 3.1.21 with your Smarty version
 
@@ -19,7 +20,7 @@
      * You can use an absolute path `/home/stud/yourusername/public_html/Smarty-3.1.28/libs/`
      * or a relative one, e.g., `../Smarty-3.1.28/libs/`
      * Replace 3.1.21 with your Smarty version
-  2. Set the `PROJECT_DIR` in PHP. 
+  2. Set the `PROJECT_DIR` in PHP.
      * You can simply leave it empty `define("PROJECT_DIR", "");`
   3. Make sure your project has a `smarty` directory with the following sub-directories:
      * `cache`
