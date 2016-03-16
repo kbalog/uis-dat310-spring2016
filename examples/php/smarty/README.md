@@ -17,4 +17,6 @@ These steps are to be done for each project that uses Smarty.
      - `templates`
      - `templates_c`
   3. `smarty/cache` and `smarty/templates_c` need to be writeable by Apache (`chmod 777`)
-  4. Set `SMARTY_DIR` and `PROJECT_DIR` paths in the php file (`smarty_usage.php`)
+  4. Set `SMARTY_DIR` and `PROJECT_DIR` paths in the php file (`smarty.php`)
+    - Make sure you have a trailing slash after `libs/`!
+    - On windows, use forward slashes instead of backslashes, e.g., `define("SMARTY_DIR", "F:/wamp/www/Smarty-3.1.28/libs/")`

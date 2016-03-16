@@ -39,7 +39,7 @@
   * If you get a Smarty error (*PHP Fatal error: Uncaught --> Smarty: unable to write file ./templates_c/...*), it is because of permission issues.
     * You can test your setup with `$smarty->testInstall();` This will tell you if Smarty has all the necessary permissions.
     * If you find that `cache` and `templates_c` are not writeable (despite that you set chmod 777), you need to
-      * ssh into badne7.ux.uis.no
+      * ssh into badne7.ux.uis.no 
       * go to your smarty directory
       * `setfacl --remove-all cache`
       * `setfacl --remove-all templates_c`
