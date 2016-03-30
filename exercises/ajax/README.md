@@ -65,3 +65,4 @@ The specific requirements are as follows:
 
 ![Exercise4/0](images/exercise4_0.png)
 ![Exercise4/1](images/exercise4_1.png)
+![Exercise4/2](images/exercise4_2.png)
