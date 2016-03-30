@@ -9,8 +9,10 @@
 if (isset($_GET['checkin']) && isset($_GET['days'])) {
     $checkin = $_GET['checkin'];
     $days = $_GET['days'];
+    $checkout = date("Y-m-d", strtotime("+".$days." days", strtotime($checkin)));
 
-    echo "Check from " . $checkin . " for " . $days . " days";
+    echo "Check-in: " . $checkin . "<br />";
+    echo "Check-out: " . $checkout . "<br />";
 
     // TODO load the availability for the selected period from the bookings table
 
