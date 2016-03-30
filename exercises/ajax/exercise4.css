@@ -1,0 +1,232 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+/** GENERAL **/
+
+html {
+    position: relative;
+    min-height: 100%; /* needed for footer */
+}
+
+body {
+    margin: 0 0 120px; /* equals footer height */
+    padding: 0px;
+}
+
+* {
+    font-family: Raleway, sans-serif;
+    color: #424242;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+a {
+    color: #3299BB;
+}
+
+main {
+    overflow: auto;
+    padding-top: 100px;
+    margin: 0 auto;
+    min-width: 800px;
+    max-width: 1200px;
+    width: 90%;
+}
+
+main h1 {
+    background-color: #BCBCBC;
+    color: white;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+/** header **/
+
+header {
+    height: 40px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: #424242;
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+}
+
+#logo {
+    position: fixed;
+    top: 0px;
+    left: 5%;
+    height: 60px;
+    background-color: #3299BB;
+    z-index: 10;
+}
+
+#logo h1 {
+    margin: 10px;
+    color: #E9E9E9;
+}
+
+nav {
+    position: absolute;
+    height: 40px;
+    right: 5%;
+    top: 0px;
+    padding: 0px;
+    margin: 0px;
+    border-right: 1px solid #E9E9E9;
+}
+
+nav ul {
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+nav li {
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.8em;
+    border-left: 1px solid #E9E9E9;
+}
+
+nav a {
+    color: #E9E9E9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/** footer **/
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    height: 120px;
+    border-top: 5px solid #424242;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: #E9E9E9;
+}
+
+footer .contact {
+    font-size: 0.8em;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #424242;
+}
+
+footer .contact a {
+    color: #424242;
+}
+
+/** index **/
+
+img.banner {
+    width: 100%;
+    border-top: 5px solid #424242;
+    border-bottom: 5px solid #424242;
+}
+
+.framed {
+    border: 1px solid #E9E9E9;
+    padding: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    font-size: 0.8em;
+}
+
+.column {
+    width: 47.5%;
+    margin: 0.5%;
+    float: left;
+}
+
+.centered {
+    text-align: center;
+}
+
+article:hover {
+    background-color: #E9E9E9;
+}
+
+.place {
+    position: absolute;
+    left: 5px;
+    bottom: 8px;
+    width: 200px;  /* width of the image */
+    z-index: 1;
+    background-color: #E9E9E9;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.prop_left {
+    width: 200px;
+    float: left;
+}
+
+article h3 {
+    margin: 0;
+}
+
+.prop_right {
+    float: none; /* just to make it clear */
+    padding-left: 10px;
+    width: auto;
+    overflow: hidden;
+    height: auto;
+}
+
+article .details {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    width: 50px;
+    background-color: #3299BB;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: #E9E9E9;
+    border: 1px solid white;
+    outline: 1px solid #BCBCBC;
+}
+
+article .details:hover {
+    background-color: #FF9900;
+}
+
+/** property **/
+
+.prop_booking {
+    position: absolute;
+    bottom: 5px;
+    left: 215px;
+}
+
+/** checkout **/
+
+label {
+    width: 200px;
+    float: left;
+    margin-right: 1em;
+    text-align: right;
+}
+
+form div {
+    padding-bottom: 2px;
+}
+
+form input[type="submit"] {
+    font-weight: bold;
+}
