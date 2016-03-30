@@ -83,6 +83,10 @@ function displayCalendar($year, $month, $checkin, $checkout, $booked) {
     for ($day = 1; $day <= $numdays; $day++) {
         $date = mktime(0, 0, 0, $month, $day, $year);
         $class = array_key_exists(date("Y-m-d", $date), $booked) ? "booked" : "available";
+        // indicate selected dates (check-out date excluded)
+        if ($date >= $checkin && $date < $checkout) {
+            $class .= " selected";
+        }
         echo "<td class='" . $class . "'>" . $day . "</td>";
         if (dow($date) == 6) { // Sun
             echo "</tr>"; // close row

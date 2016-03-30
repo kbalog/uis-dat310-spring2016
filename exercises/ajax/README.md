@@ -54,14 +54,14 @@ The specific requirements are as follows:
   - Make an AJAX call to `exercise4.ajax.php` with the dates as parameters in `checkAvailability()`.
   - Display a spinning circle (`images/loader.gif`) while waiting for the response. (Then, replace the spinning circle with the tables.)
   - Generate the full HTML table(s) with the availability in exercise4.ajax.php.
-    * Display a single month if check-in and check-out are in the same month. Otherwise display two months next to each other. (See the `displayCalendar()` function in [calendar.inc.php](../php/basics/calendar.inc.php) from earlier PHP exercises.)
+    * Display a single month if check-in and check-out are in the same month. Otherwise display two months next to each other. (See the `displayCalendar()` function in [calendar.inc.php](../../solutions/php/basics/calendar.inc.php) from earlier PHP exercises.)
     * Load the availability of the given property from the bookings table (from Assignment 6).
         - You can find the [table structure here](../../solutions/ajax/bookings.sql).
         - Insert some records manually (or using the code you wrote for Assignment 6), so that you have some data for testing.
     * Color available days as green and unavailable days as red.
     * Add a solid distinctive border around the selected days (from check-in to check-out).
     * Add a 1s delay before returning results.
-  - Bonus exercise: change the number of days in the day select list according to the number of days in a month using JS, when date or month changes.
+  - Optional bonus exercise (not part of the reference solution): change the number of days in the day select list according to the number of days in a month using JS, when date or month changes.
 
 ![Exercise4/0](images/exercise4_0.png)
 ![Exercise4/1](images/exercise4_1.png)

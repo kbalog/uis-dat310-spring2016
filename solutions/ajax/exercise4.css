@@ -248,11 +248,12 @@ form input[type="submit"] {
     background-color: #00FF99;
 }
 
-#availability table td.selected {
-    border: 2px solid black;
-}
-
 #availability table td.booked {
     border: 1px solid grey;
     background-color: #FF3366;
+}
+
+#availability table td.selected {
+    border: 2px solid black;
+    font-weight: bold;
 }
