@@ -32,7 +32,8 @@ function checkAvailability() {
     };
     var checkin = getSelectedValue("year") + "-" + getSelectedValue("month") + "-" + getSelectedValue("day");
     var days = getSelectedValue("days");
-    xhr.open("GET", "exercise4.ajax.php?checkin=" + checkin + "&days=" + days, true);
+    var property_id = document.getElementById("property_id").value;
+    xhr.open("GET", "exercise4.ajax.php?checkin=" + checkin + "&days=" + days + "&property_id=" + property_id, true);
     xhr.send(null);
 
     // set the availability div to display

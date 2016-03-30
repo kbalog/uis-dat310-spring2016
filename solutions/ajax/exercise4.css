@@ -253,5 +253,6 @@ form input[type="submit"] {
 }
 
 #availability table td.booked {
+    border: 1px solid grey;
     background-color: #FF3366;
 }

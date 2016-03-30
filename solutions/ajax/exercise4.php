@@ -36,6 +36,7 @@
         </div>
         <div class="prop_booking">
             <form>
+                <input type="hidden" name="property_id" id="property_id" value="1">
                 Check-in:
                 <?php
                 require_once "exercise4.inc.php";

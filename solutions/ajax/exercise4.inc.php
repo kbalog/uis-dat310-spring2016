@@ -60,7 +60,7 @@ function dow($date) {
         return $dow - 1; // Mon .. Sat
 }
 
-function displayCalendar($year, $month) {
+function displayCalendar($year, $month, $checkin, $checkout, $booked) {
 
     // table header
     echo "<table><thead><tr><th colspan='7'>" . $month . "/" . $year . "</th></tr><tr>";
@@ -82,7 +82,8 @@ function displayCalendar($year, $month) {
     $numdays = cal_days_in_month(CAL_GREGORIAN, $month, $year);
     for ($day = 1; $day <= $numdays; $day++) {
         $date = mktime(0, 0, 0, $month, $day, $year);
-        echo "<td class='available'>" . $day . "</td>";
+        $class = array_key_exists(date("Y-m-d", $date), $booked) ? "booked" : "available";
+        echo "<td class='" . $class . "'>" . $day . "</td>";
         if (dow($date) == 6) { // Sun
             echo "</tr>"; // close row
             if ($day < $numdays) { // more days to come
@@ -102,4 +103,36 @@ function displayCalendar($year, $month) {
     }
 
     echo "</tbody></table>";
+}
+
+// checks the bookings for a given property for a given period
+// and returns an associative array indexed with days for the days it is booked
+function loadBookings($property_id, $checkin, $checkout) {
+    global $db_server, $db_username, $db_password, $db_database;
+
+    $date_from = date('Y-m-01', strtotime($checkin)); // first day of checkin month
+    $date_to = date('Y-m-t', strtotime($checkout));  // last day of checkout month
+
+    $mysqli = new mysqli($db_server, $db_username, $db_password, $db_database);
+    $stmt = $mysqli->prepare("SELECT check_in, check_out FROM bookings WHERE property_id=? "
+        . "AND (check_in BETWEEN ? and ? OR check_out BETWEEN ? and ?)");
+    $stmt->bind_param("issss", $property_id, $date_from, $date_to, $date_from, $date_to);
+    $stmt->bind_result($date1, $date2);
+    $stmt->execute();
+
+    $booked = array();  // $booked[$date] = true if the property is booked for that day
+
+    // iterate results
+    while ($stmt->fetch()) {
+        // record that it was booked from date1 to date2 (excluded)
+        $day = strtotime($date1);
+        while ($day < strtotime($date2)) {
+            $booked[date("Y-m-d", $day)] = true;
+            $day = strtotime('+1 day', $day);
+        }
+    }
+    $stmt->close();
+    $mysqli->close();
+
+    return $booked;
 }
