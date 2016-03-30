@@ -40,10 +40,10 @@ Implement a feature on the "property page" of the booking site (from Assignment 
 
 This exercise requires using a combination of HTML, CSS, PHP, MySQL, JS, and AJAX, and consists of the following files:
   - `exercise4.php` is the main file.
-  - `exercise4.inc.php` contains PHP functions that are used in the main PHP file.
   - `exercise4.css` is the CSS file.
   - `exercise4.js` contains all JS code.
   - `exercise4.ajax.php` is responsible for generating the AJAX response.
+  - `exercise4.inc.php` contains PHP functions that are used in exercise4.php and exercise4.ajax.php.
 
 The specific requirements are as follows:
 

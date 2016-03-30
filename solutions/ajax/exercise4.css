@@ -243,7 +243,7 @@ form input[type="submit"] {
     margin-right: 20px;
 }
 
-#availability table td {
+#availability table td.available {
     border: 1px solid grey;
     background-color: #00FF99;
 }

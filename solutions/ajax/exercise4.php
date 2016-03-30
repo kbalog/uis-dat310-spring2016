@@ -55,11 +55,7 @@
 
     <div id="availability">
         <h1>Availability</h1>
-        <div class="framed" id="avail_details">
-            <!-- Display spinning circle / table here. -->
-            <!-- <img src="images/loader.gif"> -->
-            <!-- ?php include "_calendar.php"; ? -->
-        </div>
+        <div class="framed" id="avail_details"></div>
     </div>
 
     <h1>Details</h1>
