@@ -39,7 +39,7 @@
   * If you get a Smarty error (*PHP Fatal error: Uncaught --> Smarty: unable to write file ./templates_c/...*), it is because of permission issues.
     * You can test your setup with `$smarty->testInstall();` This will tell you if Smarty has all the necessary permissions.
     * If you find that `cache` and `templates_c` are not writeable (despite that you set chmod 777), you need to
-      * ssh into badne7.ux.uis.no 
+      * ssh into badne7.ux.uis.no
       * go to your smarty directory
       * `setfacl --remove-all cache`
       * `setfacl --remove-all templates_c`
@@ -49,7 +49,7 @@
 
   * You have received an email with your MySQL credentials (username, password, database) from the UNIX system administrator.
     * If you have not received such email, send a mail to Theodor Ivesdal <theo@ux.uis.no> saying that you need a MySQL database for this course. You need to send him your UX username!
-  * You can work with the database from the UNIX shell or using a DB management tool, like MySQLWorkbench
+  * You can work with the database from the UNIX shell or using a DB management tool, like PhpMyAdmin.
   * Mind that you cannot connect directly to the MySQL on UX (for example, setting the host to mysql.ux.uis.no in a PHP script that runs on your localhost will not work); you can connect directly from the other ux.uis machines or use SSH tunneling.
 
 ### Connecting to MySQL from UNIX shell
@@ -59,17 +59,3 @@
     * replace `balog` with your MySQL username
     * replace `dbbalog` with your MySQL database
     * use the MySQL password (not the same as your UX password!)
-
-### Connecting to MySQL from MySQLWorkbench  
-
-  1. Create a new connection with the following settings
-    * Connection method: Standard TCP/IP over SSH
-    * SSH hostname: badne7.ux.uis.no
-    * SSH username: your UX username
-    * SSH password: your UX password
-    * MySQL hostname: mysql.ux.uis.no
-    * MySQL server port: 3306 (default)
-    * Username: your MySQL username
-    * Password: your MySQL password
-  2. Connect
-    * If you get a connection error, you might need to enable *use old authentication protocol* on the Advanced tab
