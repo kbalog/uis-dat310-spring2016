@@ -28,3 +28,16 @@ Complete the following selected exercises from the W3C tutorial: [1](http://www.
 Complete the following selected exercises from the W3C tutorial: [1](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_hide1), [2](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_hide4), [3](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_fade1), [4](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_fade4), [5](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_slide), [6](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_slide3), [7](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_animate1), [8](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_animate2), [9](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_animate3), [10](http://www.w3schools.com/jquery/exercise.asp?filename=exercise_animate4).
 
   - See [this page](http://www.w3schools.com/jquery/jquery_ref_effects.asp) for the list of possible effect methods.
+
+
+## Exercise #5: jQuery color picker
+
+Solve the previous Javascript exercise ([JS II / Exercise #8](../../solutions/js/events_dom/exercise8.js)) using jQuery.
+
+- Make a color picker that displays a color palette; display colored tiles (rectangles) in the "colors" div.
+- When a colored tile is clicked:
+  * write the code of that color inside the "selected" div;
+  * set the background of the "selected" div to that color.
+- You are given the [HTML file](exercise5.html) and [part of the JS code](exercise5.js) that collects the different colors in an array. (Only the JS file needs to be edited.)
+
+![Exercise5](images/exercise5.png)
