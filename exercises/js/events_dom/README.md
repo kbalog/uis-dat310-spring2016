@@ -10,11 +10,11 @@
 ## Exercise #2: Changing colors
 
   - [This page](exercise2.html) contains a 200x200px div. Write JS code that sets the initial color of the div to blue, then changes the color when the div is clicked. On the first click, it changes from blue to red, on the next click from red to green, then from green to blue (and once it's blue, it starts all over again).
-  - In this exercise, you are only allowed to make changes inside `<script>...</script>` and cannot change other parts of the HTML code. 
+  - In this exercise, you are only allowed to make changes inside `<script>...</script>` and cannot change other parts of the HTML code.
 
 ![Exercise2](images/exercise2.png)
 
-  
+
 ## Exercise #2b: Randomizing initial color
 
   - Extend the previous exercise such that the div's initial color is chosen randomly.
@@ -33,7 +33,7 @@
 
 ## Exercise #4: Formatting text
 
-  - Create a simple what-you-see-what-you-get text editor. 
+  - Create a simple what-you-see-what-you-get text editor.
   - Change the text inside the "text" div according to the form selections.
   - You can find the [starter HTML with the form controls here](exercise4.html).
 
@@ -58,7 +58,7 @@
 ## Exercise #6: Content show/hide
 
   - You are given the [starter HTML file](exercise6.html).
-  - By default, show only the article headings (this can be achieved by setting the display property of the div with the text to "none" using inline CSS). 
+  - By default, show only the article headings (this can be achieved by setting the display property of the div with the text to "none" using inline CSS).
   - Clicking the "show" link should make the article body appear and the "show" link to disappear.
   - Clicking the "hide" link should make the article body disappear and the "show" link appear.
 
@@ -82,7 +82,7 @@
 ## Exercise #7b: Advanced playlist
 
   - Extend the previous exercise such that songs can be removed too. Add a delete link or icon to each song; clicking the link/icon should remove the song from the list.
-  
+
 
 ## Exercise #8: Color picker
 
@@ -93,7 +93,7 @@
   - You are given the [HTML file](exercise8.html) and [part of the JS code](exercise8.js) that collects the different colors in an array. (Only the JS file needs to be edited.)
 
 ![Exercise8](images/exercise8.png)
-    
+
 
 ## Exercise #9: Labyrinth game
 
@@ -101,7 +101,7 @@ Make a game where the user (player) needs to find her way out from a labyrinth. 
 
 ### Step 1
 
-  - The map of the labyrinth is given as a 2-dimensional array (1 represent walls 0 represent empty space). Implement a printConsole() method inside the [Labyrinth class](labyrinth.class.js) that prints the map on the browser console. Use '*' for walls and spaces for empty space.
+  - The map of the labyrinth is given as a 2-dimensional array (1 represent walls 0 represent empty space). Implement a printConsole() method inside the [Labyrinth class](labyrinth.class.js) that prints the map on the browser console. Use `*` for walls and spaces for empty space.
    - Add the printConsole() method to the Labyrinth class.
    - Write JS code in [game.js](game.js) that creates a Labyrinth object and call the printConsole() when the page loads.
 
@@ -125,4 +125,3 @@ Make a game where the user (player) needs to find her way out from a labyrinth. 
   - Display an alert window with "Congratulations!" if the character reaches the end (destination) cell.
 
 ![Exercise9/3](images/exercise9_3.png)
-  

@@ -32,12 +32,39 @@ Complete the following selected exercises from the W3C tutorial: [1](http://www.
 
 ## Exercise #5: jQuery color picker
 
-Solve the previous Javascript exercise ([JS II / Exercise #8](../../solutions/js/events_dom/exercise8.js)) using jQuery.
+Solve the previous JavaScript exercise ([JS II / Exercise #8](../../solutions/js/events_dom/exercise8.js)) using jQuery.
 
-- Make a color picker that displays a color palette; display colored tiles (rectangles) in the "colors" div.
-- When a colored tile is clicked:
-  * write the code of that color inside the "selected" div;
-  * set the background of the "selected" div to that color.
-- You are given the [HTML file](exercise5.html) and [part of the JS code](exercise5.js) that collects the different colors in an array. (Only the JS file needs to be edited.)
+  - Make a color picker that displays a color palette; display colored tiles (rectangles) in the "colors" div.
+  - When a colored tile is clicked:
+    * write the code of that color inside the "selected" div;
+    * set the background of the "selected" div to that color.
+  - You are given the [HTML file](exercise5.html) and [part of the JS code](exercise5.js) that collects the different colors in an array. (Only the JS file needs to be edited.)
 
-![Exercise5](images/exercise5.png)
+![Exercise5](../../exercises/js/events_dom/images/exercise8.png)
+
+
+## Exercise #6: Playlist
+
+Solve the previous JavaScript exercise ([JS II / Exercise #7](../../solutions/js/events_dom/exercise7.js)) using jQuery.
+
+  - Create a simple playlist application where users can add songs to a list. The song here is just a non-empty string.
+  - The [starter HTML file](exercise6.html) contains the form and an empty playlist.  There is an [external CSS file](exercise6.css) with the style declarations.
+  - Add your solution to [exercise6.js](exercise6.js). You are not allowed to make changes to the html file!
+
+![Exercise6](../../exercises/js/events_dom/images/exercise7.png)
+
+
+## Exercise #7: Input check
+
+Solve the previous JavaScript exercise ([JS II / Exercise #5](../../solutions/js/events_dom/exercise7.js)) using jQuery.
+
+  - You are [given a form](exercise7.html) with two password fields and a submit button.
+  - Perform input check and display an error message next the the corresponding field if there is an error.
+    * Passwords must be at least 6 characters long.
+    * The two passwords must match.
+  - The placeholders for the error messages have already been prepared (div-s with class "err").
+  - By default the submit button should be hidden. Display the button only when there are no errors.
+
+![Exercise7/1](../../exercises/js/events_dom/images/exercise5_1.png)
+![Exercise7/2](../../exercises/js/events_dom/images/exercise5_2.png)
+![Exercise7/3](../../exercises/js/events_dom/images/exercise5_3.png)
