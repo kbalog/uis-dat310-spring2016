@@ -68,3 +68,16 @@ Solve the previous JavaScript exercise ([JS II / Exercise #5](../../solutions/js
 ![Exercise7/1](../../exercises/js/events_dom/images/exercise5_1.png)
 ![Exercise7/2](../../exercises/js/events_dom/images/exercise5_2.png)
 ![Exercise7/3](../../exercises/js/events_dom/images/exercise5_3.png)
+
+
+## Exercise #8: Checking username using AJAX
+
+Solve the previous AJAX exercise ([Exercise #1](../../solutions/ajax/exercise1.js)) using jQuery.
+
+  - Check on the registration form, [exercise8.html](exercise8.html), whether the given username meets the requirements and is available. This has to be done using AJAX, i.e., without re-loading the page.
+  - The server-side script that performs the check is `http://www3.ux.uis.no/~balog/dat310/exercises/check_username.php`. Send a GET request with the username as parameter: `check_username.php?username=xyz`.
+    * For testing your solution, the following usernames are taken: "johnsmith", "maryjane", "johndoe", "smith".
+  - The check has to be performed each time the username field loses focus (the user tabs or clicks out from the field). Don't display any error message if the username field is empty. You are not allowed to make changes to the HTML file!
+  - Write that error string returned by the server-side script to the span with id `username_status` using the `load()` jQuery method.
+
+![Exercise8](../../exercises/ajax/images/exercise1.png)
