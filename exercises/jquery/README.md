@@ -70,9 +70,9 @@ Solve the previous JavaScript exercise ([JS II / Exercise #5](../../solutions/js
 ![Exercise7/3](../../exercises/js/events_dom/images/exercise5_3.png)
 
 
-## Exercise #8: Checking username using AJAX
+## Exercise #8: Checking username (AJAX)
 
-Solve the previous AJAX exercise ([Exercise #1](../../solutions/ajax/exercise1.js)) using jQuery.
+Solve the previous [AJAX Exercise #1](../../solutions/ajax/exercise1.js) using jQuery.
 
   - Check on the registration form, [exercise8.html](exercise8.html), whether the given username meets the requirements and is available. This has to be done using AJAX, i.e., without re-loading the page.
   - The server-side script that performs the check is  `check_username.php`. Send a GET request with the username as parameter: `check_username.php?username=xyz`.
@@ -81,3 +81,20 @@ Solve the previous AJAX exercise ([Exercise #1](../../solutions/ajax/exercise1.j
   - Write that error string returned by the server-side script to the span with id `username_status` using the `load()` jQuery method.
 
 ![Exercise8](../../exercises/ajax/images/exercise1.png)
+
+
+## Exercise #9: Inventory (AJAX)
+
+Solve the previous [AJAX Exercise #3](../../solutions/ajax/exercise3.js) using jQuery.
+
+  - The server-side script `inventory.php` takes a 3-digit unique identifier as a parameter `inventory.php?item_id=123` and return the inventory record as a JSON object. For example:
+
+```
+{"name":"Test item","brand":"CompanyX","size_x":11,"size_y":22,"size_z":33,"price":1000,"available":false}
+```
+  - Valid item_id-s for testing: 001, 123, 999.
+  - Complete [exercise9.js](exercise9.js) to make a GET request,  parse the JSON response, and display the values in the corresponding form fields in [exercise9.html](exercise9.html).
+  - You are not allowed to make changes to the HTML file.
+
+
+![Exercise9](../../exercises/ajax/images/exercise3.png)
