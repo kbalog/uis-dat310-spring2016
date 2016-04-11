@@ -45,3 +45,10 @@ Complete the Bootstrap image exercises from the W3C tutorial: [1](http://www.w3s
 
 Complete the Bootstrap button exercises from the W3C tutorial:
 [1](http://www.w3schools.com/bootstrap/exercise.asp?filename=exercise_buttons1), [2](http://www.w3schools.com/bootstrap/exercise.asp?filename=exercise_buttons2), [3](http://www.w3schools.com/bootstrap/exercise.asp?filename=exercise_buttons3), [4](http://www.w3schools.com/bootstrap/exercise.asp?filename=exercise_buttons4).
+
+
+## Exercise #6: Simple form
+
+Style the form given in [exercise6.html](exercise6.html) using Bootstrap. (You will also need to include the Bootstrap css file in the header.) See the [Bootstrap form documentation](http://getbootstrap.com/css/#forms) for help.
+
+![Exercise6](images/exercise6.png)
