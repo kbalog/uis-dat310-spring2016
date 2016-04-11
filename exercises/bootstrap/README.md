@@ -24,10 +24,10 @@ Complete [exercise2.html](exercise2.html) to create the following layout using B
 Hint: use [responsive classes](http://getbootstrap.com/css/#responsive-utilities) on rows.
 
 Mobile view:
-![Exercise2 mobile](images/Exercise2_mobile.png)
+![Exercise2 mobile](images/exercise2_mobile.png)
 
 Desktop view:
-![Exercise2 desktop](images/Exercise2_desktop.png)
+![Exercise2 desktop](images/exercise2_desktop.png)
 
 
 ## Exercise #3: Tables
