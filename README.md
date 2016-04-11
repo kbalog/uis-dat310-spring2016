@@ -17,3 +17,4 @@ This repository contains examples and exercises from the 2016 spring DAT310 Web 
 | PHP Part III. (Smarty) | [slides](https://speakerdeck.com/kbalog/web-programming-php-part-iii) | [examples](examples/php/smarty) | [exercises](exercises/php/smarty) | [solutions](solutions/php/smarty) |
 | AJAX | [slides](https://speakerdeck.com/kbalog/web-programming-ajax) | [examples](examples/ajax) | [exercises](exercises/ajax) | [solutions](solutions/ajax) |
 | jQuery | [slides](https://speakerdeck.com/kbalog/web-programming-jquery) | [examples](examples/jquery) | [exercises](exercises/jquery) | [solutions](solutions/jquery) |
+| Bootstrap | [slides](https://speakerdeck.com/kbalog/web-programming-bootstrap) | [examples](examples/bootstrap) | [exercises](exercises/bootstrap) | [solutions](solutions/bootstrap) |
