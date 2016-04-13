@@ -85,3 +85,28 @@ Format and extend the given [starer html file](exercise8.html) using Bootstrap b
 3) Use the [Bootstrap alert component](http://getbootstrap.com/components/#alerts) to add a danger alert. Use the [thumbnails classes](http://getbootstrap.com/components/#thumbnails) to give the images borders.
 
 ![Exercise8/3](images/exercise8_3.png)
+
+
+## Exercise #9: Components
+
+Try the different Bootstrap components in action by building the following page step-by-step. There is no starter file for this exercise, you need to code everything from scratch.
+
+1) Add a navigation bar, a full-width jumbotron, and 3 columns with some content.
+
+![Exercise9/1](images/exercise9_1.png)
+
+2) Extend the navigation bar with the followings:
+  - The navbar should always be fixed on the top of the screen.
+  - Add three menu items plus a dropdown menu to the left. Mark the second menu item as active.
+  - Add a sign-in form with email and passwords fields to the right.
+
+![Exercise9/2](images/exercise9_2.png)
+![Exercise9/2b](images/exercise9_2b.png)
+
+3) Add a primary "Learn more" button to the jumbotron, and "View details" buttons in medium size with different glyphicons under the text blocks in each column.
+
+![Exercise9/3](images/exercise9_3.png)
+
+4) Add a dismissable alert below the jumbotron, and a "New" label to the heading in the third column. Further, add a badge with a number to the "Contact" item in the navbar.
+
+![Exercise9/4](images/exercise9_4.png)
