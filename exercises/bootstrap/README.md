@@ -110,3 +110,13 @@ Try the different Bootstrap components in action by building the following page 
 4) Add a dismissable alert below the jumbotron, and a "New" label to the heading in the third column. Further, add a badge with a number to the "Contact" item in the navbar.
 
 ![Exercise9/4](images/exercise9_4.png)
+
+
+## Exercise #10: DataTables
+
+Make a DataTables table for listing countries using server-side processing.
+
+  - Load the `countries.sql` file into MySQL on localhost.
+  - Complete [exercise10.php](exercise10.php) by following the [protocol described here](https://datatables.net/manual/server-side).
+  - You may disable the search feature.
+  - See [this page](https://datatables.net/examples/server_side/simple.html) for help.
