@@ -52,3 +52,36 @@ Complete the Bootstrap button exercises from the W3C tutorial:
 Style the form given in [exercise6.html](exercise6.html) using Bootstrap. (You will also need to include the Bootstrap css file in the header.) See the [Bootstrap form documentation](http://getbootstrap.com/css/#forms) for help.
 
 ![Exercise6](images/exercise6.png)
+
+
+## Exercise #7: Registration form
+
+Modify the registration form from an earlier PHP exercise ([PHP I / Exercise #12](../../)) such that the form is styled using Bootstrap.
+
+Additionally, use Bootstrap's
+  - [Form validation states](http://getbootstrap.com/css/#forms-control-validation)  to show whether an input value is correct or not.
+    * Fields should not get any colors when the form is initially displayed. Upon submission, each field with an error should get a "has-error" class and fields without any error should be assigned a "has-success" class.
+  - [Alerts](http://getbootstrap.com/components/#alerts) together with [contextual classes](http://getbootstrap.com/css/#helper-classes-backgrounds) to show the errors at the top of the page. (Each alert in a separate rounded box.)
+
+Note that the file needs to placed under your www root folder and tested under `http://localhost...`.
+
+![Exercise7](images/exercise7.png)
+
+
+## Exercise #8: Wild & Wacky Vegetables
+
+(Taken from http://www.pairuptocode.com/exercises/bootstrap.html)
+
+Format and extend the given [starer html file](exercise8.html) using Bootstrap by following the steps below.
+
+1) Use the [Bootstrap grids classes](http://getbootstrap.com/css/#grid) to create a sidebar and main content.
+
+![Exercise8/1](images/exercise8_1.png)
+
+2) Use the [Bootstrap base CSS classes](http://getbootstrap.com/css/#type) to add a quote, table, and search form to the page:
+
+![Exercise8/2](images/exercise8_2.png)
+
+3) Use the [Bootstrap alert component](http://getbootstrap.com/components/#alerts) to add a danger alert. Use the [thumbnails classes](http://getbootstrap.com/components/#thumbnails) to give the images borders.
+
+![Exercise8/3](images/exercise8_3.png)
