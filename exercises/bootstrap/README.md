@@ -117,6 +117,9 @@ Try the different Bootstrap components in action by building the following page 
 Make a DataTables table for listing countries using server-side processing.
 
   - Load the `countries.sql` file into MySQL on localhost.
-  - Complete [exercise10.php](exercise10.php) by following the [protocol described here](https://datatables.net/manual/server-side).
-  - You may disable the search feature.
-  - See [this page](https://datatables.net/examples/server_side/simple.html) for help.
+  - See [exercise10.php](exercise10.php) that implements the [protocol described here](https://datatables.net/manual/server-side).
+    * See [this page](https://datatables.net/examples/server_side/simple.html) for an example.
+  - Disable the search feature for this DataTable (see [this page for reference](https://datatables.net/reference/option/)).
+  - Complete the missing function in [mysql.php](mysql.php).
+
+![Exercise10](images/exercise10.png)

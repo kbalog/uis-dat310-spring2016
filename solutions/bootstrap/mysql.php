@@ -42,8 +42,23 @@ function get_count_filtered() {
 function get_data($start, $length, $order_by, $order_dir) {
     global $mysqli;
 
-    // TODO
-    return array();
+    // ORDER BY needs to be added here, doesn't work with bind_param
+    $stmt = $mysqli->prepare("SELECT Code, Name, Continent, Capital, Population FROM countries ORDER BY "
+                            . $order_by . " " . $order_dir . " LIMIT ?,?");
+    // bind parameters
+    $stmt->bind_param("ii", $start, $length);
+    // bind result variables
+    $stmt->bind_result($code, $name, $cont, $cap, $pop);
+    $stmt->execute();
+
+    // iterate results
+    $data = array();
+    while ($stmt->fetch()) {
+        $data[] = array($code, $name, $cont, $cap, $pop);
+    }
+    $stmt->close();
+
+    return $data;
 }
 
 
