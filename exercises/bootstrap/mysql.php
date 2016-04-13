@@ -20,7 +20,7 @@ if ($mysqli->connect_error) {
 function get_count_total() {
     global $mysqli;
 
-    $stmt = $this->mysqli->prepare("SELECT COUNT(*) AS num FROM countries");
+    $stmt = $mysqli->prepare("SELECT COUNT(*) AS num FROM countries");
     $stmt->bind_result($num);
     $stmt->execute();
 
