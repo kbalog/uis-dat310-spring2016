@@ -9,7 +9,7 @@
     * [WAMP](http://www.wampserver.com/en/) for Windows. Your web root will (mosty likely) be `C:\wamp\www`.
     * [MAMP](https://www.mamp.info/en/) for Mac. Your web root will (mosty likely) be `/Applications/MAMP/htdocs`.
     * LAMP stack for Linux. Depends on your Linux distribution, see, e.g., for [Ubuntu](http://howtoubuntu.org/how-to-install-lamp-on-ubuntu).
- 
+
 
 ## Exercise #1: Testing out a local webserver
 
@@ -40,4 +40,4 @@
 
 ## Exercise #3: Setting up a remote webserver
 
-
+  - Set up Exercises #1 and #2 on the ux.uis server.
