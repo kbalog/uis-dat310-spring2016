@@ -17,3 +17,5 @@ Create a map using the Google Maps API that displays all the properties from the
 
   - You will need to use PHP to query the properties from MySQL and generate the map. We can simply use `Properties.class.php` from before for that.
   - You may extend the properties table with latitude and longitude columns.
+
+![Exercise2](images/exercise2.png)
