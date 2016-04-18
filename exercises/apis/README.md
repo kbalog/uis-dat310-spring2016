@@ -15,5 +15,5 @@ See the [W3C tutorial](http://www.w3schools.com/googleapi/google_maps_overlays.a
 
 Create a map using the Google Maps API that displays all the properties from the booking table using markers. When the user clicks on a marker, show the details of that property (photo, location, and description) in an info window.
 
-  - You will need to use PHP to query the properties from MySQL and generate the map.
+  - You will need to use PHP to query the properties from MySQL and generate the map. We can simply use `Properties.class.php` from before for that.
   - You may extend the properties table with latitude and longitude columns.
