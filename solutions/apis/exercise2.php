@@ -16,6 +16,18 @@ $prop = new Properties();
                 mapTypeId: google.maps.MapTypeId.HYBRID
             };
             var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+            <?php
+            $props = $prop->listProperties();
+            for ($i = 0; $i < count($props); $i++) {
+                echo "var marker" . $i . " = new google.maps.Marker({
+                position: new google.maps.LatLng(" . $props[$i]['latitude'] . ", " . $props[$i]['longitude'] . ")
+                });
+                marker" . $i . ".setMap(map);
+                ";
+            }
+
+            ?>
         }
         google.maps.event.addDomListener(window, 'load', initialize);
     </script>

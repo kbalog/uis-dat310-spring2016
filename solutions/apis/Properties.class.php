@@ -53,8 +53,8 @@ class Properties {
      * @return properties in an array
      */
     function listProperties() {
-        $stmt = $this->mysqli->prepare("SELECT property_id, name, location, description, details, photo FROM properties");
-        $stmt->bind_result($property_id, $name, $location, $description, $details, $photo);
+        $stmt = $this->mysqli->prepare("SELECT property_id, name, location, description, details, photo, latitude, longitude FROM properties");
+        $stmt->bind_result($property_id, $name, $location, $description, $details, $photo, $latitude, $longitude);
         $stmt->execute();
 
         $properties = array();
@@ -65,7 +65,9 @@ class Properties {
                 'location' => $location,
                 'description' => $description,
                 'details' => $details,
-                'photo' => $photo
+                'photo' => $photo,
+                'latitude' => $latitude,
+                'longitude' => $longitude
             );
         }
         $stmt->close();
