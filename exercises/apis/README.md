@@ -37,3 +37,47 @@ A plot should then be generated, like this (just prettier):
   - Find a charting API for the task.
   - Figure out the best way to represent the data. (We probably want to use associative arrays in JavaScript.)
   - Implement the above functionality.
+
+Some sample data to play with:
+```
+Year 	Submitted 	Accepted 	Rate
+SIGIR '99 	135 	33 	24%
+SIGIR '01 	201 	47 	23%
+SIGIR '02 	219 	44 	20%
+SIGIR '03 	266 	46 	17%
+SIGIR '04 	267 	58 	22%
+SIGIR '05 	368 	71 	19%
+SIGIR '06 	399 	74 	19%
+SIGIR '07 	490 	85 	17%
+SIGIR '08 	497 	85 	17%
+SIGIR '09 	494 	78 	16%
+SIGIR '10 	520 	87 	17%
+SIGIR '11 	543 	108 	20%
+SIGIR '12 	483 	98 	20%
+SIGIR '13 	366 	73 	20%
+SIGIR '14 	387 	82 	21%
+SIGIR '15 	351 	70 	20%
+
+CIKM '05 	425 	77 	18%
+CIKM '06 	537 	81 	15%
+CIKM '07 	512 	86 	17%
+CIKM '08 	772 	132 	17%
+CIKM '09 	847 	123 	15%
+CIKM '10 	945 	126 	13%
+CIKM '11 	918 	228 	25%
+CIKM '12 	1088 	146 	13%
+CIKM '13 	848 	143 	17%
+CIKM '14 	838 	175 	21%
+CIKM '15 	646 	165 	26%
+
+WSDM '08 	151 	24 	16%
+WSDM '09 	170 	29 	17%
+WSDM '10 	290 	45 	16%
+WSDM '11 	372 	83 	22%
+WSDM '12 	362 	75 	21%
+WSDM '13 	387 	73 	19%
+WSDM '14 	355 	64 	18%
+WSDM '15 	238 	39 	16%
+WSDM '16 	368 	67 	18%
+
+```
