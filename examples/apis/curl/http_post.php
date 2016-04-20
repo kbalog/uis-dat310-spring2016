@@ -12,16 +12,6 @@ $params = array(
     "age" => "32"
 );
 
-// create name value pairs seperated by &
-// $data will be sent in the body of the request
-$data = "";
-foreach($params as $k => $v) {
-    if (strlen($data) > 0) {
-        $data .= "&";
-    }
-    $data .= $k . '=' . $v;
-}
-
 // 1. initialize
 $ch = curl_init($url);
 
@@ -29,7 +19,7 @@ $ch = curl_init($url);
 // set method to POST
 curl_setopt($ch, CURLOPT_POST, true);
 // data to be posted
-curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($params));
 // return the transfer as a string instead of outputting it directly
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 // set true for including the header in the output
