@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #4b: Photos from Flickr</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?",
+                    {
+                        tags: "stavanger",
+                        tagmode: "any",
+                        format: "json"
+                    },
+                    function (data) {
+                        $.each(data.items, function (i, item) {
+                            var img = $("<img />").attr("src", item.media.m).attr("width", "100px");
+                            // TODO make a table
+
+                            if (i == 5) return false;
+                        });
+                    });
+        });
+    </script>
+    <style>
+        td {
+            border: 1px solid grey;
+        }
+    </style>
+</head>
+<body>
+<table id="photos">
+</table>
+</body>
+</html>
