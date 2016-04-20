@@ -48,3 +48,10 @@ Note: set `nojasoncallback=1` for raw JSON response in the request URL (`http://
 ## Exercise #4b: Photos from Flickr
 
 Solve the same exercise using jQuery and JSONP.
+
+
+## Exercise #5: Twitter search
+
+Extend the twitter search example by displaying the user’s profile image and add link to her profile.
+
+![Exercise5](images/exercise5.png)

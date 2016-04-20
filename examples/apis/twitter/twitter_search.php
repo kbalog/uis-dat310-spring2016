@@ -15,14 +15,12 @@ $settings = array(
     'oauth_access_token_secret' => ""
 );
 
-// Perform a GET request and echo the response
 $url = "https://api.twitter.com/1.1/search/tweets.json";
 $getfield = '?q=stavanger';
 $requestMethod = 'GET';
 $twitter = new TwitterAPIExchange($settings);
 $json = $twitter->setGetfield($getfield)->buildOauth($url, $requestMethod)->performRequest();
 
-// convert JSON to associative array
 $data = json_decode($json, true);
 
 ?>
