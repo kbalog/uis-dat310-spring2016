@@ -1,10 +1,10 @@
-# Web programming
+# UiS DAT310 Web Programming course
 
-This repository contains examples and exercises from the 2016 spring DAT310 Web programming course of the University of Stavanger.
+This repository contains examples and exercises from the 2016 spring DAT310 Web programming course at the University of Stavanger.
 
 As part of the course, 10 assignments are to be handed in within a given deadline; these are available on [ItsLearning](https://uis.itslearning.com/Index.aspx). The status of those assignments can be followed on the [Online Course Admin](http://www3.ux.uis.no/~balog/dat310/admin/) site.
 
-| Topic | slided | examples | exercises | solutions |
+| Topic | slides | examples | exercises | solutions |
 | --- | --- | --- | --- | --- |
 | HTML (basics) | [slides](https://speakerdeck.com/kbalog/web-programming-html) | [examples](examples/html/basics) | [exercises](exercises/html/basics) | [solutions](solutions/html/basics) |
 | CSS Part I. (properties) | [slides](https://speakerdeck.com/kbalog/web-programming-css-part-i) | [examples](examples/css/properties) | [exercises](exercises/css/properties) | [solutions](solutions/css/properties) |
